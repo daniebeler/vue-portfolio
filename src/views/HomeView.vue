@@ -1,29 +1,27 @@
 <template>
 <div class="wrapper">
 
-  <section class=" page_1 d-flex align-items-center justify-content-center panel" data-color="grey">
+  <section class="page_1 d-flex justify-content-center panel" data-color="grey">
     <div class="container">
-      <div class="row justify-content-center">
-        <h1 class="heading mb-4">
-          I am Daniel Hiebeler
+      <div class="row">
+        <div class="col">
+          <h1 class="heading">
+          I'm <span style="color: #DC3545">Daniel</span>
         </h1>
+        <h1 class="heading">
+          Hiebeler
+        </h1>
+        <h4 style="text-align: left">I am Programmer</h4>
+        </div>
+
       </div>
       <div class="row justify-content-center text-center">
         <p class="hero-subtitle"><span class="typed"
             data-typed-items="Sailor, Programmer, Game Developer, HTL Student"></span></p>
       </div>
     </div>
-
-    <div class="container fixed-bottom">
-      <div class="row">
-        <div class="col">
-          <div class="arrow bounce">
-            <img class="img-arrow-down not-draggable" src="@/assets/img/arrow-down.svg" alt="Arrow down">
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
+
   <section class="page_2 panel" data-color="grey">
     <div class="container">
       <div class="row d-flex justify-content-center">
@@ -49,6 +47,28 @@
       </div>
     </div>
   </section>
+
+  <section class="latestprojects">
+    <div class="container">
+      <div class="row">
+        <div class="col justify-content-center d-flex">
+          <Heading text="Latest Projects"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1>Idea Overflow</h1>
+        </div>
+        <div class="col">
+          <h1>Idea Overflow</h1>
+          <p>
+            With Idea Overflow I am developing a social network specifically for software developers where everyone can share ideas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="page_3 panel" data-color="white">
 
     <div class="container">
@@ -192,10 +212,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Heading from '@/components/Heading.vue'
 
 export default defineComponent({
   name: 'HomeView',
   components: {
+    Heading
   }
 })
 </script>
@@ -208,8 +230,9 @@ export default defineComponent({
 
 .page_1 {
   height: 100vh;
-  color: var(--my_dark);
+  color: black;
   flex-direction: column;
+  background-color: white;
 }
 
 .page_2 {
@@ -217,6 +240,12 @@ export default defineComponent({
   font-size: 1.2rem;
   padding-top: 200px;
   padding-bottom: 100px;
+  background-color: #222A2F;
+}
+
+.latestprojects {
+  padding-top: 50px;
+  color: white;
 }
 
 .page_3 {
@@ -231,16 +260,16 @@ export default defineComponent({
 }
 
 .heading {
-  color: whitesmoke;
+  color: #222A2F;
   font-size: 3rem;
-  text-align: center;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
   .heading {
-    color: whitesmoke;
+    color: #222A2F;
     font-size: 4.5rem;
-    text-align: center;
+    text-align: left;
   }
 }
 

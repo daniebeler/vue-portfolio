@@ -1,0 +1,34 @@
+<template>
+  <h1>{{text}}</h1>
+</template>
+
+<script>
+export default {
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: 'Heading',
+  props: {
+    text: String
+  }
+}
+</script>
+
+<style scoped>
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    display:inline-block;
+    position:relative;
+  }
+
+  h1::after{
+  content:'';
+  height: 3px;
+  width: 60px;
+  background:#DC3545;
+  position:absolute;
+  margin:auto;
+  bottom: -10px;
+  left:0;
+  right:0;
+  }
+</style>

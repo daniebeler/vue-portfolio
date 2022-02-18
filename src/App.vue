@@ -1,14 +1,17 @@
 <template>
   <Navbar/>
   <router-view/>
+  <Footer/>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
-    Navbar
+    Navbar,
+    Footer
   }
 }
 
@@ -19,10 +22,9 @@ export default {
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: regular, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
@@ -47,13 +49,23 @@ body * {
   z-index: 3;
 }
 
+h1 {
+  font-family: bolt, Avenir, Helvetica, Arial, sans-serif;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
 
 @font-face {
-  font-family: "font";
-  src: url("@/assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+  font-family: "bolt";
+  src: url("@/assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("@/assets/fonts/Poppins-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -473,12 +485,13 @@ body * {
 
 .icon-header {
   text-decoration: none;
-  color: var(--my_light);
+  color: #222A2F;
   transition: 0.5s ease-in-out;
 }
 
 .icon-header:hover {
   text-decoration: none;
+  color: #222A2F;
 }
 
 .icon-header::before {
