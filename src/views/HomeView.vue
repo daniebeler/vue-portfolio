@@ -62,10 +62,10 @@
         </div>
       </div>
       <div class="row" style="padding-bottom: 80px">
-        <div class="col">
-          <img class="img" src="@/assets/img/ideaoverflow-preview.png" alt="Icon of ReflexTest">
+        <div class="col-5">
+          <img style="width: 100%" class="img" src="@/assets/img/ideaoverflow-preview.png" alt="Icon of ReflexTest">
         </div>
-        <div class="col">
+        <div class="col-7">
           <h1>Idea Overflow</h1>
           <p>
             With Idea Overflow I am developing a social network specifically for software developers where everyone can share ideas.
@@ -74,14 +74,14 @@
       </div>
 
       <div class="row">
-        <div class="col">
+        <div class="col-7">
           <h1>dine.</h1>
           <p>
             With Idea Overflow I am developing a social network specifically for software developers where everyone can share ideas.
           </p>
         </div>
-        <div class="col">
-          <img class="img" src="@/assets/img/dine-preview.png" alt="Icon of ReflexTest">
+        <div class="col-5">
+          <img style="width: 100%" src="@/assets/img/dine-preview.png" alt="Icon of ReflexTest">
         </div>
       </div>
     </div>
@@ -195,12 +195,6 @@
             url="https://dine-app.at"
           />
 
-      </div>
-
-      <div class="row" data-aos="zoom-in-up" style="margin-top: 20px;">
-        <div class="d-flex col justify-content-center">
-          <a href="games" class="btn_general btn_dark">More Information</a>
-        </div>
       </div>
     </div>
   </section>
