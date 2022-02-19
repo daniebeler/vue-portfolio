@@ -24,6 +24,12 @@
 
   <section class="page_2 panel" data-color="grey">
     <div class="container">
+      <div class="row">
+        <div class="col justify-content-center d-flex">
+          <Heading text="Who am I"/>
+        </div>
+      </div>
+
       <div class="row d-flex justify-content-center">
         <div class="col-auto d-flex align-items-center">
           <img class="m-4 img-logo not-draggable" src="@/assets/img/logo.webp" alt="Icon of ReflexTest">
@@ -55,9 +61,9 @@
           <Heading text="Latest Projects"/>
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="padding-bottom: 80px">
         <div class="col">
-          <h1>Idea Overflow</h1>
+          <img class="img" src="@/assets/img/ideaoverflow-preview.png" alt="Icon of ReflexTest">
         </div>
         <div class="col">
           <h1>Idea Overflow</h1>
@@ -66,137 +72,128 @@
           </p>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col">
+          <h1>dine.</h1>
+          <p>
+            With Idea Overflow I am developing a social network specifically for software developers where everyone can share ideas.
+          </p>
+        </div>
+        <div class="col">
+          <img class="img" src="@/assets/img/dine-preview.png" alt="Icon of ReflexTest">
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="page_3 panel" data-color="white">
 
     <div class="container">
-      <div class="row mt-5 mb-3" data-aos="zoom-in-up">
-        <h2 class="col">
-          Games
-        </h2>
-      </div>
       <div class="row">
-
-        <div class="col-6 col-lg-3 col-md-4 pt-3 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/reflextest.webp" alt="Icon of ReflexTest">
-          <div class="m-3 img-overlay img-reflextest d-flex align-items-center justify-content-center"
-            onclick="location.href='games#reflextest';">
-            <div class="overlay-txt">Reflextest</div>
-          </div>
+        <div class="col justify-content-center d-flex">
+          <Heading text="Apps and Games"/>
         </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/speed-clicker.webp" alt="Icon of Speed Clicker">
-          <div class="m-3 img-overlay img-speedclicker d-flex align-items-center justify-content-center"
-            onclick="location.href='games#speedclicker';">
-            <div class="overlay-txt">Speed Clicker</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/21.webp" alt="Icon of Twentyone">
-          <div class="m-3 img-overlay img-twentyone d-flex align-items-center justify-content-center"
-            onclick="location.href='games#twentyone';">
-            <div class="overlay-txt">Twentyone</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/mine-boy.webp" alt="Icon of MineBoy">
-          <div class="m-3 img-overlay img-mineboy d-flex align-items-center justify-content-center"
-            onclick="location.href='games#mineboy';">
-            <div class="overlay-txt">MineBoy</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/toggle-together.webp" alt="Icon of Toggle Together">
-          <div class="m-3 img-overlay img-toggletogether d-flex align-items-center justify-content-center"
-            onclick="location.href='games#toggletogether';">
-            <div class="overlay-txt">Toggle Together</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/justwatchad.webp" alt="Icon of Just Watch Ad">
-          <div class="m-3 img-overlay img-justwatchad d-flex align-items-center justify-content-center"
-            onclick="location.href='games#justwatchad';">
-            <div class="overlay-txt">Just Watch Ad</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/parkingjam.webp" alt="Icon of Parking Jam">
-          <div class="m-3 img-overlay img-parkingjam d-flex align-items-center justify-content-center"
-            onclick="location.href='games#parkingjam';">
-            <div class="overlay-txt">Parking Jam</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/wrongway.webp" alt="Icon of Wrong Way">
-          <div class="m-3 img-overlay img-wrongway d-flex align-items-center justify-content-center"
-            onclick="location.href='games#wrongway';">
-            <div class="overlay-txt">Wrong Way</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/balance.webp" alt="Icon of Balance">
-          <div class="m-3 img-overlay img-balance d-flex align-items-center justify-content-center"
-            onclick="location.href='games#balance';">
-            <div class="overlay-txt">Balance - The Game</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/pong.webp" alt="Icon of Daily Tasks">
-          <div class="m-3 img-overlay img-pong d-flex align-items-center justify-content-center"
-            onclick="location.href='games#pong';">
-            <div class="overlay-txt">1D Pong</div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/rocket.webp" alt="Icon of Daily Tasks">
-          <div class="m-3 img-overlay img-rocket d-flex align-items-center justify-content-center"
-            onclick="location.href='games#riskyrocket';">
-            <div class="overlay-txt">Risky Rocket</div>
-          </div>
-        </div>
-
       </div>
-      <div class="row mt-5 mb-3" data-aos="zoom-in-up">
-        <h2 class="col">
-          Other projects
-        </h2>
-      </div>
+
       <div class="row">
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/dailytasks.webp" alt="Icon of Daily Tasks">
-          <div class="m-3 img-overlay img-dailytasks d-flex align-items-center justify-content-center"
-            onclick="location.href='https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks';">
-            <div class="overlay-txt">Daily Tasks</div>
-          </div>
-        </div>
+        <GameImage
+            image="reflextest.webp"
+            name="Reflextest"
+            color="#0dbc3e"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.reflextest"
+          />
 
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/idea-overflow.svg" alt="Icon of Daily Tasks">
-          <div class="m-3 img-overlay img-ideaoverflow d-flex align-items-center justify-content-center"
-            onclick="location.href='https://ideaoverflow.xyz';">
-            <div class="overlay-txt">Idea Overflow</div>
-          </div>
-        </div>
+          <GameImage
+            image="speed-clicker.webp"
+            name="Speed Clicker"
+            color="#2ca6e9"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.speed_clicker"
+          />
 
-        <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3" data-aos="zoom-in-up">
-          <img class="img" src="@/assets/img/dine.png" alt="Icon of Daily Tasks">
-          <div class="m-3 img-overlay img-dine d-flex align-items-center justify-content-center"
-            onclick="location.href='https://dine-app.at';">
-            <div class="overlay-txt">dine.</div>
-          </div>
-        </div>
+          <GameImage
+            image="21.webp"
+            name="Twentyone"
+            color="#5e35b1"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.twentyone"
+          />
+
+          <GameImage
+            image="mine-boy.webp"
+            name="MineBoy"
+            color="#653814"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.MineBoy"
+          />
+
+          <GameImage
+            image="toggle-together.webp"
+            name="Toggle Together"
+            color="#2279ff"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.toggletogether"
+          />
+
+          <GameImage
+            image="justwatchad.webp"
+            name="Just Watch Ad"
+            color="#ffb602"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.justwatchad"
+          />
+
+          <GameImage
+            image="parkingjam.webp"
+            name="Parking Jam"
+            color="#ed8923"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.RushHour"
+          />
+
+          <GameImage
+            image="wrongway.webp"
+            name="Wrong Way"
+            color="#32aa50"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.wrongway"
+          />
+
+          <GameImage
+            image="balance.webp"
+            name="Balance - The Game"
+            color="#ffc656"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.Balance"
+          />
+
+          <GameImage
+            image="pong.webp"
+            name="1D Pong"
+            color="#ef6060"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong"
+          />
+
+          <GameImage
+            image="rocket.webp"
+            name="Risky Rocket"
+            color="#31c381"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.RiskyRocket"
+          />
+
+          <GameImage
+            image="dailytasks.webp"
+            name="Daily Tasks"
+            color="#212121"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks"
+          />
+
+          <GameImage
+            image="idea-overflow.svg"
+            name="Idea Overflow"
+            color="#0cc87e"
+            url="https://ideaoverflow.xyz"
+          />
+
+          <GameImage
+            image="dine.png"
+            name="dine."
+            color="#dfcfb0"
+            url="https://dine-app.at"
+          />
 
       </div>
 
@@ -213,11 +210,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Heading from '@/components/Heading.vue'
+import GameImage from '@/components/GameImage.vue'
 
 export default defineComponent({
   name: 'HomeView',
   components: {
-    Heading
+    Heading,
+    GameImage
   }
 })
 </script>
@@ -251,12 +250,8 @@ export default defineComponent({
 .page_3 {
   padding-top: 150px;
   padding-bottom: 50px;
-  color: var(--my_dark);
+  color: white;
   position: relative;
-}
-
-.projects-heading {
-  color: #eb3349;
 }
 
 .heading {
@@ -289,176 +284,6 @@ export default defineComponent({
 .about-holder {
   padding-left: 30px;
   padding-right: 30px;
-}
-
-.img-container {
-  width: 100%;
-  padding: 15px;
-}
-
-.img-border {
-  width: 100%;
-  border-radius: 10px;
-}
-
-@keyframes change {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
-}
-
-/*----------------------------------------*/
-/*  Arrow Down
-/*----------------------------------------*/
-
-.img-arrow-down {
-  width: 50px;
-}
-
-.arrow {
-  text-align: center;
-  bottom: 20%;
-}
-
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-.fixed-bottom {
-  position: absolute;
-  bottom: 20%;
-  z-index: 100;
-}
-
-.table-section-2 {
-  color: var(--my_light);
-}
-
-.img {
-  width: 100%;
-  border-radius: 15px;
-  box-shadow: 4px 12px 40px 6px rgba(0, 0, 0, 0.09);
-}
-
-.img:hover {
-  cursor: pointer;
-}
-
-.img-overlay {
-  position: absolute;
-  border-radius: 15px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: 0.5s ease;
-}
-
-.img-reflextest {
-  background-color: #0dbc3e;
-}
-
-.img-speedclicker {
-  background-color: #2ca6e9;
-}
-
-.img-twentyone {
-  background-color: #5e35b1;
-}
-
-.img-mineboy {
-  background-color: #653814;
-}
-
-.img-toggletogether {
-  background-color: #2279ff;
-}
-
-.img-justwatchad {
-  background-color: #ffb602;
-}
-
-.img-parkingjam {
-  background-color: #ed8923;
-}
-
-.img-wrongway {
-  background-color: #32aa50;
-}
-
-.img-balance {
-  background-color: #ffc656;
-}
-
-.img-pong {
-  background-color: #ef6060;
-}
-
-.img-rocket {
-  background-color: #31c381;
-}
-
-.img-dailytasks {
-  background-color: #212121;
-}
-
-.img-ideaoverflow {
-  background-color: #0cc87e;
-}
-
-.img-dine {
-  background-color: #dfcfb0;
-}
-
-/* .img-overlay:hover {
-  opacity: 1;
-  cursor: pointer;
-} */
-
-.overlay-txt {
-  color: white;
-}
-
-.bg-1 {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1;
-  background-color: var(--my_dark);
-}
-
-.bg-2 {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: 2;
-  background-color: var(--my_dark);
-  transition: background-color 0.5s ease;
 }
 
 .color-grey {
