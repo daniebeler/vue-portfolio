@@ -4,14 +4,20 @@
   <section class="page_1 d-flex justify-content-center panel" data-color="grey">
     <div class="container">
       <div class="row">
-        <div class="col">
-          <h1 class="heading">
+        <div class="col-6 justify-content-center d-flex" style="flex-direction:column">
+          <div>
+            <h1 class="heading">
           I'm <span style="color: #DC3545">Daniel</span>
         </h1>
         <h1 class="heading">
           Hiebeler
         </h1>
         <h4 style="text-align: left">I am Programmer</h4>
+          </div>
+
+        </div>
+        <div class="col-6">
+          <img class="m-4 not-draggable" src="@/assets/img/logo.webp" alt="Icon of ReflexTest">
         </div>
 
       </div>
