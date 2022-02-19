@@ -245,6 +245,13 @@
           />
 
           <GameImage
+            image="polywork.svg"
+            name="Polywork"
+            color="#5F6CEB"
+            url="https://www.polywork.com/daniebeler"
+          />
+
+          <GameImage
             image="geocaching.webp"
             name="Geocaching"
             color="#02884d"
