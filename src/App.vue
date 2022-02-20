@@ -407,10 +407,6 @@ h1 {
   z-index: -1;
 }
 
-.page_footer {
-  min-height: 100vh;
-}
-
 .icon-header {
   text-decoration: none;
   color: #222A2F;

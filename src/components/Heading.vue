@@ -15,7 +15,6 @@ export default {
 <style scoped>
   h1 {
     text-align: center;
-    margin-bottom: 50px;
     display:inline-block;
     position:relative;
   }

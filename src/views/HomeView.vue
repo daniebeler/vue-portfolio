@@ -31,7 +31,7 @@
   <section class="page_2 panel" data-color="grey">
     <div class="container">
       <div class="row">
-        <div class="col justify-content-center d-flex">
+        <div class="col justify-content-center d-flex pb-5">
           <Heading text="Who am I"/>
         </div>
       </div>
@@ -63,7 +63,7 @@
   <section class="latestprojects">
     <div class="container">
       <div class="row">
-        <div class="col justify-content-center d-flex">
+        <div class="col justify-content-center d-flex pb-5">
           <Heading text="Latest Projects"/>
         </div>
       </div>
@@ -97,7 +97,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col justify-content-center d-flex">
+        <div class="col justify-content-center d-flex pb-5">
           <Heading text="Apps and Games"/>
         </div>
       </div>
