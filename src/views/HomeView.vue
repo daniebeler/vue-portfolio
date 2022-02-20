@@ -69,7 +69,7 @@
       </div>
       <div class="row" style="padding-bottom: 80px">
         <div class="col-5">
-          <img style="width: 100%" class="img" src="@/assets/img/ideaoverflow-preview.png" alt="Icon of ReflexTest">
+          <img class="img-project" src="@/assets/img/ideaoverflow-preview.png" alt="Icon of ReflexTest">
         </div>
         <div class="col-7">
           <h1>Idea Overflow</h1>
@@ -237,9 +237,14 @@ export default defineComponent({
 .page_2 {
   color: var(--my_light);
   font-size: 1.2rem;
-  padding-top: 200px;
+  padding-top: 50px;
   padding-bottom: 100px;
   background-color: #222A2F;
+}
+
+.img-project {
+  width: 100%;
+  border-radius: 15px;
 }
 
 .latestprojects {

@@ -3,7 +3,7 @@
     <img class="img" :src="require(`@/assets/img/${image}`)" alt="Icon">
     <div class="m-3 img-overlay d-flex align-items-center justify-content-center" :style="{ background: color }"
       @click="openUrl()">
-      <div class="overlay-txt">{{name}}</div>
+      <div class="overlay-txt bolt">{{name}}</div>
     </div>
   </div>
 </template>

@@ -10,7 +10,7 @@
 
         <div class="col d-flex justify-content-end align-items-center links">
           <router-link to="/about" class="bolt">About me</router-link>
-          <router-link to="/games" class="bolt">Games</router-link>
+          <!-- <router-link to="/games" class="bolt">Games</router-link> -->
           <router-link to="/contact" class="bolt">Contact</router-link>
         </div>
       </div>
