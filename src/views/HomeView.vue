@@ -12,12 +12,12 @@
         <h1 class="heading">
           Hiebeler
         </h1>
-        <h4 style="text-align: left">I am Programmer</h4>
+        <h4 style="text-align: left">Sailor, Programmer,...</h4>
           </div>
 
         </div>
         <div class="col-6">
-          <img class="m-4 not-draggable" src="@/assets/img/logo.webp" alt="Icon of ReflexTest">
+          <img class="m-4 first-img" src="@/assets/img/me.png" alt="Icon of ReflexTest">
         </div>
 
       </div>
@@ -38,7 +38,7 @@
 
       <div class="row d-flex justify-content-center">
         <div class="col-auto d-flex align-items-center">
-          <img class="m-4 img-logo not-draggable" src="@/assets/img/logo.webp" alt="Icon of ReflexTest">
+          <img class="m-4 img-logo" src="@/assets/img/me3.jpg" alt="Icon of me">
         </div>
         <div class="d-flex col align-items-center">
           <div>
@@ -234,12 +234,17 @@ export default defineComponent({
   background-color: white;
 }
 
+.first-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
 .page_2 {
   color: var(--my_light);
   font-size: 1.2rem;
   padding-top: 50px;
   padding-bottom: 100px;
-  background-color: #222A2F;
+  background-color: var(--my_dark);
 }
 
 .img-project {
@@ -309,6 +314,7 @@ export default defineComponent({
 
 .img-logo {
   max-width: 250px;
+  border-radius: 15px;
 }
 
 .hero-subtitle{
