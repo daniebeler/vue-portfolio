@@ -375,7 +375,7 @@ export default {
   position: relative;
   color: white;
   padding-bottom: 150px;
-  background-color: #23272D;
+  background-color: var(--my_dark);
 }
 
 .heading {

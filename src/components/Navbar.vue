@@ -2,19 +2,16 @@
 /* eslint-disable vue/multi-word-component-names */
 <template>
   <nav class="navbar fixed-top navbar-holder">
-
     <div class="container" style="z-index: 500">
       <div class="row d-flex flex-grow-1">
-
         <div class="col d-flex">
-          <a href="https://daniebeler.com" class="navbar-brand icon-header brand-text">Daniel Hiebeler</a>
+          <router-link to="/" class="navbar-brand icon-header brand-text">Daniel Hiebeler</router-link>
         </div>
 
-        <div class="col d-flex justify-content-end align-items-end">
-          <router-link to="/">Home</router-link>
-          <router-link to="/about">About me</router-link>
-          <router-link to="/games">Games</router-link>
-          <router-link to="/contact">Contact</router-link>
+        <div class="col d-flex justify-content-end align-items-center links">
+          <router-link to="/about" class="bolt">About me</router-link>
+          <router-link to="/games" class="bolt">Games</router-link>
+          <router-link to="/contact" class="bolt">Contact</router-link>
         </div>
       </div>
     </div>
@@ -29,25 +26,55 @@ export default {
 </script>
 
 <style scoped>
-.header {
-  position: fixed;
-  z-index: 10;
-  height: 50px;
-  background-color: black;
-}
 
 .brand-text {
   font-family: bolt, Avenir, Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #222A2F;
+  color: var(--my_dark);
   text-decoration: none;
-  padding-left: 30px;
+  padding-left: 10px;
+  transition: 0.3s ease-in-out;
 }
 
 a:hover {
+  color: var(--my_dark);
+}
+
+a::before,
+a::after {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover::after,
+a:hover::before {
+  opacity: 1;
+}
+
+.links .router-link-active {
+  text-decoration: none;
   color: #222A2F;
+}
+
+.links .router-link-active::before,
+a::before {
+  content: "</";
+  color: inherit;
+}
+
+.links .router-link-active::after,
+a::after {
+  white-space: pre-wrap;
+  content: "> ";
+}
+
+.links .router-link-active,
+.links .router-link-active::after,
+.links .router-link-active::before {
+  color: #DC3545;
+  opacity: 1;
 }
 
 .header-area {
@@ -88,8 +115,8 @@ a:hover {
 }
 
 .navbar-holder {
-  /* margin-top: 17px; */
-  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: 1s;
   background-color: white;
   color: #222A2F;

@@ -224,12 +224,12 @@ export default defineComponent({
 <style scoped>
 .wrapper {
   transition: background-color 1s ease;
-  background-color: #23272D;
+  background-color: var(--my_dark);
 }
 
 .page_1 {
   height: 100vh;
-  color: black;
+  color: var(--my_dark);
   flex-direction: column;
   background-color: white;
 }
