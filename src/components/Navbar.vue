@@ -4,24 +4,31 @@
   <nav class="navbar fixed-top navbar-holder">
     <div class="container" style="z-index: 500">
       <div class="row d-flex flex-grow-1">
-        <div class="col d-flex">
+        <div class="col-auto d-flex">
           <router-link to="/" class="navbar-brand icon-header brand-text">Daniel Hiebeler</router-link>
         </div>
 
-        <div class="col d-flex justify-content-end align-items-center links">
+        <div class="col justify-content-end align-items-center links d-none d-sm-flex">
           <router-link to="/about" class="bolt">About me</router-link>
-          <!-- <router-link to="/games" class="bolt">Games</router-link> -->
           <router-link to="/contact" class="bolt">Contact</router-link>
+        </div>
+
+        <div class="col justify-content-end align-items-center links d-flex d-sm-none">
+          <router-link to="/about" class="bolt">me</router-link>
         </div>
       </div>
     </div>
   </nav>
+
 </template>
 
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: 'Navbar'
+  name: 'Navbar',
+  created: function() {
+    console.log('meem')
+  }
 }
 </script>
 
@@ -120,5 +127,32 @@ a::after {
   transition: 1s;
   background-color: white;
   color: #222A2F;
+}
+
+
+body.offcanvas-active{
+	overflow:hidden;
+}
+.offcanvas-header{ display:none; }
+
+@media (max-width: 992px) {
+  .offcanvas-header{ display:block; }
+  .navbar-collapse {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: black;
+    transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+  }
+  .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
 }
 </style>
