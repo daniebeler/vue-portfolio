@@ -34,7 +34,7 @@
         </div>
 
         <div class="row d-flex justify-content-center">
-          <div class="col-auto d-flex align-items-center">
+          <div class="col-12 col-md-auto d-flex align-items-center justify-content-center">
             <img
               class="m-4 img-logo"
               src="@/assets/img/me3.jpg"
@@ -72,15 +72,15 @@
             <Heading text="Latest Projects" />
           </div>
         </div>
-        <div class="row" style="padding-bottom: 80px">
-          <div class="col-5">
+        <div class="row" style="padding-bottom: 80px; flex-wrap: wrap-reverse">
+          <div class="col-12 col-md-5">
             <img
               class="img-project"
               src="@/assets/img/ideaoverflow-preview.png"
               alt="Icon of ReflexTest"
             />
           </div>
-          <div class="col-7">
+          <div class="col-12 col-md-7">
             <h1>Idea Overflow</h1>
             <p>
               With Idea Overflow I am developing a social network specifically
@@ -90,16 +90,16 @@
         </div>
 
         <div class="row">
-          <div class="col-7">
+          <div class="col-12 col-md-7">
             <h1>dine.</h1>
             <p>
               With Idea Overflow I am developing a social network specifically
               for software developers where everyone can share ideas.
             </p>
           </div>
-          <div class="col-5">
+          <div class="col-12 col-md-5">
             <img
-              style="width: 100%"
+              class="img-project"
               src="@/assets/img/dine-preview.png"
               alt="Icon of ReflexTest"
             />
