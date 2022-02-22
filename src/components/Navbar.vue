@@ -1,7 +1,7 @@
 /* eslint-disable vue/multi-word-component-names */ /* eslint-disable
 vue/multi-word-component-names */
 <template>
-  <nav class="navbar fixed-top navbar-holder">
+  <nav class="navbar fixed-top navbar-holder" style="background: white">
     <div class="container" style="z-index: 500">
       <div class="row d-flex flex-grow-1">
         <div class="col-auto d-flex">
@@ -22,12 +22,8 @@ vue/multi-word-component-names */
         >
           <input type="checkbox" name="" id="nav-toggler" class="fas fa-bars" />
           <nav class="navb">
-            <a href="#" data-text="home">home</a>
-            <a href="#" data-text="about">about</a>
-            <a href="#" data-text="services">services</a>
-            <a href="#" data-text="blogs">blogs</a>
-            <a href="#" data-text="contact">contact</a>
-            <div class="background-image"></div>
+            <router-link to="/about" class="bolt">About me</router-link>
+            <router-link to="/contact" class="bolt">Contact</router-link>
           </nav>
         </div>
       </div>
@@ -35,8 +31,6 @@ vue/multi-word-component-names */
   </nav>
 
   <!-- <input type="checkbox" name="" id="nav-toggler" class="fas fa-bars"> -->
-
-
 </template>
 
 <script>
@@ -51,14 +45,6 @@ export default {
 
 <style scoped>
 * {
-  /* font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  text-transform: uppercase; */
   transition: all 0.2s linear;
 }
 
@@ -69,12 +55,9 @@ html {
 
 #nav-toggler {
   -webkit-appearance: none;
-  position: fixed;
-  top: 20px;
-  right: 30px;
   cursor: pointer;
   z-index: 1010;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 #nav-toggler:checked {
@@ -97,6 +80,7 @@ html {
   left: -110%;
   height: 100%;
   width: 100%;
+  background-color: #ff7128;
   z-index: 1000;
   display: flex;
   align-items: flex-start;
@@ -106,74 +90,7 @@ html {
 }
 
 .navb a {
-  font-size: 4em;
-  color: transparent;
-  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
-  font-weight: bolder;
-  position: relative;
-  letter-spacing: 3px;
-}
-
-.navb a::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: rgba(255, 255, 255, 0.9);
-  transition: 0.3s linear;
-  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-}
-
-.navb a:hover::before {
-  clip-path: polygon(0 0, 100% 0, 99% 100%, 0 100%);
-}
-
-.background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url(@/assets/images/nav-img-1.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-
-.navb a:hover:nth-child(2) ~ .background-image {
-  background: url(@/assets/images/nav-img-2.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.navb a:hover:nth-child(3) ~ .background-image {
-  background: url(@/assets/images/nav-img-3.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.navb a:hover:nth-child(4) ~ .background-image {
-  background: url(@/assets/images/nav-img-4.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.navb a:hover:nth-child(5) ~ .background-image {
-  background: url(@/assets/images/nav-img-5.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-@media (max-width: 768px) {
-  .navb a {
-    font-size: 3em;
-  }
-}
-
-@media (max-width: 450px) {
-  .navb a {
-    font-size: 2em;
-  }
+  font-size: 3em;
 }
 
 .brand-text {
@@ -267,7 +184,6 @@ a::after {
   padding-top: 10px;
   padding-bottom: 10px;
   transition: 1s;
-  background-color: white;
   color: #222a2f;
 }
 
