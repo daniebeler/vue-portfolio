@@ -60,6 +60,10 @@ h1 {
   display: none;
 }
 
+::selection {
+  background: #FFB7B7;
+}
+
 @font-face {
   font-family: "bolt";
   src: url("@/assets/fonts/Poppins-Bold.ttf") format("truetype");

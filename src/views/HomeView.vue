@@ -34,7 +34,9 @@
         </div>
 
         <div class="row d-flex justify-content-center">
-          <div class="col-12 col-md-auto d-flex align-items-center justify-content-center">
+          <div
+            class="col-12 col-md-auto d-flex align-items-center justify-content-center"
+          >
             <img
               class="m-4 img-logo"
               src="@/assets/img/me3.jpg"
@@ -55,8 +57,8 @@
               <div class="row pt-3">
                 <div class="d-flex col justify-content-center">
                   <a href="about" class="btn_general btn_light"
-                    >More Information</a
-                  >
+                    >More Information
+                  </a>
                 </div>
               </div>
             </div>
@@ -93,8 +95,12 @@
           <div class="col-12 col-md-7">
             <h1>dine.</h1>
             <p>
-              With Idea Overflow I am developing a social network specifically
-              for software developers where everyone can share ideas.
+              Together with some friends I founded the startup “dine.”. It is a
+              delivery service app that promotes sustainable and healthy eating.
+              The app virtually collects all orders from a school or company and
+              sends them together to the supplier. As a result, the supplier
+              only has to drive once and the ordering process is simplified for
+              everyone involved.
             </p>
           </div>
           <div class="col-12 col-md-5">
