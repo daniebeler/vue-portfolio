@@ -2,9 +2,9 @@
   <div class="wrapper">
     <section class="page_1 d-flex justify-content-center">
       <div class="container">
-        <div class="row" style="flex-wrap: wrap-reverse">
+        <div class="row justify-content-center" style="flex-wrap: wrap-reverse">
           <div
-            class="col-12 col-lg-6 justify-content-center align-items-center d-flex flex-column"
+            class="col-12 col-md-6 justify-content-center align-items-center d-flex flex-column"
           >
             <div>
               <h1 class="heading">
@@ -14,7 +14,7 @@
               <h4 style="text-align: left">Sailor, Programmer,...</h4>
             </div>
           </div>
-          <div class="col-12 col-lg-6">
+          <div class="col-8 col-md-6">
             <img
               class="p-4 first-img"
               src="@/assets/img/me.png"
@@ -96,7 +96,7 @@
             <h1>dine.</h1>
             <p>
               Together with some friends I founded the startup “dine.”. It is a
-              delivery service app that promotes sustainable and healthy eating.
+              delivery service app that promotes sustainable and healthy food.
               The app virtually collects all orders from a school or company and
               sends them together to the supplier. As a result, the supplier
               only has to drive once and the ordering process is simplified for
