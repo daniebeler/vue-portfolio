@@ -28,6 +28,16 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/webdesign/ColorsView.vue')
   },
   {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('../views/BlogView.vue')
+  },
+  {
+    path: '/blog/my-personal-toolbox',
+    name: 'my-personal-toolbox',
+    component: () => import('../views/blog/my-personal-toolbox/ToolsView.vue')
+  },
+  {
     path: '/:pathMatch(.*)*',
     component: () => import('../views/NotFoundView.vue')
   }
