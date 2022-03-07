@@ -4,12 +4,18 @@
     style="display: flex; flex-direction: row; margin-bottom: 60px"
   >
     <div class="col-3">
-      <img class="blog-image" :src="require(`@/assets/img/blog/${image}`)" alt="" />
+      <img
+        class="blog-image"
+        :src="require(`@/assets/img/blog/${image}`)"
+        alt=""
+      />
     </div>
     <div class="col-5">
-      <h1>{{heading}}</h1>
-      <p>{{summary}}</p>
-      <a href="about" class="btn_general btn_dark">Read more</a>
+      <h1>{{ heading }}</h1>
+      <p>{{ summary }}</p>
+      <router-link :to="`/blog/${destination}`" class="btn_general btn_dark"
+        >Read more</router-link
+      >
     </div>
   </div>
 </template>
@@ -26,8 +32,8 @@ export default {
     heading: String,
     summary: String,
     image: String,
-    destination: String
-  }
+    destination: String,
+  },
 };
 </script>
 

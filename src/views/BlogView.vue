@@ -4,15 +4,11 @@
 
       <BlogPreview
         heading="My personal toolbox"
-        summary="meeem"
-        image="tools.jpg"
-      />
-      <BlogPreview
-        heading="My personal toolbox"
-        summary="meeem"
+        summary="A collection of software I use"
         image="tools.jpg"
         destination="my-personal-toolbox"
       />
+
     </div>
   </section>
 </template>
