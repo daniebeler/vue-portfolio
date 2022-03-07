@@ -43,7 +43,7 @@
               alt="Icon of me"
             />
           </div>
-          <div class="d-flex col align-items-center">
+          <div class="d-flex col-10 col-md align-items-center">
             <div>
               <p>
                 Welcome to my page! Here you will find some facts about me and
@@ -56,9 +56,7 @@
               </p>
               <div class="row pt-3">
                 <div class="d-flex col justify-content-center">
-                  <a href="about" class="btn_general btn_light"
-                    >More Information
-                  </a>
+                  <Button name="More Information" url="about" />
                 </div>
               </div>
             </div>
@@ -229,12 +227,14 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import Heading from "@/components/Heading.vue";
+import Button from "@/components/Button.vue";
 import GameImage from "@/components/GameImage.vue";
 
 export default defineComponent({
   name: "HomeView",
   components: {
     Heading,
+    Button,
     GameImage,
   },
 });

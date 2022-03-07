@@ -1,90 +1,153 @@
 <template>
+  <section class="header">
+    <h1>ABOUT ME</h1>
+  </section>
 
-  <section class="section-profiles panel" data-color="white">
+  <section class="section-intro">
+    <div class="container">
+      <div class="row" style="padding-bottom: 30px">
+        <div
+          class="col justify-content-center d-flex"
+          style="padding-bottom: 30px"
+        >
+          <Heading text="Introduction" />
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-10 col-lg-6 pe-lg-4 pb-5 pb-lg-5">
+          <img class="intro-img" src="@/assets/img/skeeta.jpg" alt="" />
+        </div>
+        <div class="col-10 col-lg-6 ps-lg-4">
+          <p class="intro-description">
+            Hi! I'm Daniel Hiebeler, programmer with a passion in game
+            development.
+          </p>
+          <p class="intro-description">
+            I'm born in 2003 in Austria. I love programming all kind of stuff.
+            At the moment I am attending fifth grade of HTL Dornbirn. I love all
+            kinds of programming and I also like online challenges like
+            TryHackMe or HackerRank. Especially OSINT challenges are a lot of
+            fun...
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="section-profiles">
     <div class="container">
       <div class="row" style="padding-bottom: 30px">
         <div class="col justify-content-center d-flex">
-          <Heading text="Social Media"/>
+          <Heading text="Social Media" />
         </div>
       </div>
       <div class="row">
+        <GameImage
+          image="insta.webp"
+          name="Instagram"
+          color="#ea001e"
+          url="https://www.instagram.com/daniebeler"
+        />
 
         <GameImage
-            image="insta.webp"
-            name="Instagram"
-            color="#ea001e"
-            url="https://www.instagram.com/daniebeler"
-          />
+          image="git.webp"
+          name="Github"
+          color="#000"
+          url="https://github.com/daniebeler"
+        />
 
-          <GameImage
-            image="git.webp"
-            name="Github"
-            color="#000"
-            url="https://github.com/daniebeler"
-          />
+        <GameImage
+          image="idea-overflow.svg"
+          name="Idea Overflow"
+          color="#0cc87e"
+          url="https://ideaoverflow.xyz/users/daniebeler"
+        />
 
-          <GameImage
-            image="idea-overflow.svg"
-            name="Idea Overflow"
-            color="#0cc87e"
-            url="https://ideaoverflow.xyz/users/daniebeler"
-          />
+        <GameImage
+          image="polywork.svg"
+          name="Polywork"
+          color="#5F6CEB"
+          url="https://www.polywork.com/daniebeler"
+        />
 
-          <GameImage
-            image="polywork.svg"
-            name="Polywork"
-            color="#5F6CEB"
-            url="https://www.polywork.com/daniebeler"
-          />
+        <GameImage
+          image="geocaching.webp"
+          name="Geocaching"
+          color="#02884d"
+          url="https://www.geocaching.com/p/?guid=555c891d-21dd-46d3-bb35-49bb06bec867"
+        />
 
-          <GameImage
-            image="geocaching.webp"
-            name="Geocaching"
-            color="#02884d"
-            url="https://www.geocaching.com/p/?guid=555c891d-21dd-46d3-bb35-49bb06bec867"
-          />
+        <GameImage
+          image="hackerrank.webp"
+          name="Hackerrank"
+          color="#39424e"
+          url="https://www.hackerrank.com/daniebeler?hr_r=1"
+        />
 
-          <GameImage
-            image="hackerrank.webp"
-            name="Hackerrank"
-            color="#39424e"
-            url="https://www.hackerrank.com/daniebeler?hr_r=1"
-          />
+        <GameImage
+          image="tryhackme.webp"
+          name="TryHackMe"
+          color="#212c42"
+          url="https://tryhackme.com/p/daniebeler"
+        />
 
-          <GameImage
-            image="tryhackme.webp"
-            name="TryHackMe"
-            color="#212c42"
-            url="https://tryhackme.com/p/daniebeler"
-          />
-
-          <GameImage
-            image="chess.webp"
-            name="Chess.com"
-            color="#2c2b29"
-            url="https://www.chess.com/member/daniebeler"
-          />
-
+        <GameImage
+          image="chess.webp"
+          name="Chess.com"
+          color="#2c2b29"
+          url="https://www.chess.com/member/daniebeler"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Heading from '@/components/Heading.vue'
-import GameImage from '@/components/GameImage.vue'
+import Heading from "@/components/Heading.vue";
+import GameImage from "@/components/GameImage.vue";
 
 export default {
-  name: 'AboutView',
+  name: "AboutView",
   components: {
     Heading,
-    GameImage
-  }
-}
+    GameImage,
+  },
+};
 </script>
 
 <style scoped>
+.header {
+  background-image: url("~@/assets/img/sailing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+.section-intro {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+}
+
+.intro-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.intro-description {
+  font-size: 1.5rem;
+}
 
 .section-profiles {
   position: relative;
@@ -205,8 +268,8 @@ export default {
   border-radius: 20px;
   color: var(--my_dark);
   padding: 30px;
-  margin-top: calc(var(--bs-gutter-x)/ 2);
-  margin-bottom: calc(var(--bs-gutter-x)/ 2);
+  margin-top: calc(var(--bs-gutter-x) / 2);
+  margin-bottom: calc(var(--bs-gutter-x) / 2);
 }
 
 .picture-games {
@@ -215,11 +278,11 @@ export default {
   border-radius: 20px;
 }
 
-.skills-text-col{
+.skills-text-col {
   min-width: 150px;
 }
 
-h2{
+h2 {
   margin-bottom: 0;
 }
 </style>
