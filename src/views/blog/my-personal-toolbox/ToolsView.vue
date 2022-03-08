@@ -1,33 +1,18 @@
 <template>
-  <section class="d-md-flex h-md-100 align-items-center first-holde">
-    <!-- First Half -->
-
-    <div
-      class="col-md-7 row mx-auto bg-image align-items-center justify-content-center"
-    ></div>
-
-    <!-- Second Half -->
-
-    <div class="col-md-5 align-items-center rightside">
-      <div class="container">
-        <div class="row justify-content-center">
-          <h1 class="text-center">My personal toolbox</h1>
+  <section class="introduction">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-8">
+          <img src="@/assets/img/blog/tools.jpg" alt="" />
+          <h1 style="padding-top: 30px" class="text-center">
+            My personal toolbox
+          </h1>
           <p class="text-center">A collection of software I use</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- <section class="welcome container">
-  <div class="row">
-    <div class="col" style="background: black">
-      fief
-    </div>
-    <div class="col">
-
-    </div>
-  </div>
-</section> -->
   <section class="holder">
     <div class="container inner-holder" style="margin-top: 130px">
       <div class="row d-flex justify-content-center align-items-center">
@@ -98,6 +83,20 @@ export default {
 </script>
 
 <style scoped>
+.introduction {
+  padding-top: 150px;
+}
+
+.introduction .row {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction img {
+  border-radius: 15px;
+  width: 100%;
+}
+
 .welcome {
   height: 100vh;
 }

@@ -1,5 +1,5 @@
 <template>
-  <Topic topic="TOOLS" image="abstract.jpg" />
+  <Topic topic="TOOLS" image="tools-title.jpg" />
 
   <section class="section-intro">
     <div class="container">
@@ -8,7 +8,7 @@
           class="col justify-content-center d-flex"
           style="padding-bottom: 30px"
         >
-          <Heading text="Introduction" />
+          <Heading text="Coming soon" />
         </div>
       </div>
     </div>

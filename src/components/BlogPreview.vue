@@ -38,6 +38,10 @@ export default {
 </script>
 
 <style scoped>
+img {
+  border-radius: 10px;
+}
+
 h1 {
   font-size: 1.8rem;
 }

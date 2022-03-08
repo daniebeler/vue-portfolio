@@ -23,12 +23,7 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/ToolsView.vue')
   },
   {
-    path: '/webdesign',
-    name: 'webdesign',
-    component: () => import('../views/WebdesignView.vue')
-  },
-  {
-    path: '/colors',
+    path: '/tools/colors',
     name: 'colors',
     component: () => import('../views/webdesign/ColorsView.vue')
   },

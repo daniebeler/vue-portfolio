@@ -1,5 +1,5 @@
 <template>
-  <Topic topic="BLOG" image="abstract.jpg" />
+  <Topic topic="BLOG" image="blog-title.jpg" />
 
   <section class="holder">
     <div class="container" style="margin-top: 130px">
