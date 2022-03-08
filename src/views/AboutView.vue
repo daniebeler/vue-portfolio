@@ -1,7 +1,5 @@
 <template>
-  <section class="header">
-    <h1>ABOUT ME</h1>
-  </section>
+  <Topic topic="ABOUT ME" image="sailing.jpg" />
 
   <section class="section-intro">
     <div class="container">
@@ -103,12 +101,14 @@
 </template>
 
 <script>
+import Topic from '@/components/Topic.vue'
 import Heading from "@/components/Heading.vue";
 import GameImage from "@/components/GameImage.vue";
 
 export default {
   name: "AboutView",
   components: {
+    Topic,
     Heading,
     GameImage,
   },
@@ -116,23 +116,6 @@ export default {
 </script>
 
 <style scoped>
-.header {
-  background-image: url("~@/assets/img/sailing.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.header h1 {
-  text-align: center;
-  font-size: 5em;
-}
 
 .section-intro {
   padding-top: 100px;

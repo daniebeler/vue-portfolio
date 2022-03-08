@@ -36,10 +36,7 @@ vue/multi-word-component-names */
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "Navbar",
-  created: function () {
-    console.log("meem");
-  },
+  name: "Navbar"
 };
 </script>
 
