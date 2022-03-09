@@ -11,7 +11,22 @@
                 I'm <span style="color: #dc3545">Daniel</span>
               </h1>
               <h1 class="heading">Hiebeler</h1>
-              <h4 style="text-align: left">Sailor, Programmer,...</h4>
+              <h2>
+                <v-typical
+                class="blink"
+                :steps="[
+                  'Sailor',
+                  1500,
+                  'Programmer',
+                  1500,
+                  'HTL Student',
+                  1500,
+                ]"
+                :loop="Infinity"
+                :wrapper="'strong'"
+              ></v-typical>
+              </h2>
+
             </div>
           </div>
           <div class="col-8 col-md-6">
@@ -229,6 +244,7 @@ import { defineComponent } from "vue";
 import Heading from "@/components/Heading.vue";
 import Button from "@/components/Button.vue";
 import GameImage from "@/components/GameImage.vue";
+import VTypical from "vue-typical";
 
 export default defineComponent({
   name: "HomeView",
@@ -236,11 +252,25 @@ export default defineComponent({
     Heading,
     Button,
     GameImage,
+    VTypical,
   },
 });
 </script>
 
 <style scoped>
+
+.blink::after {
+  content: '|';
+  animation: blink 1s infinite step-start;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
 .wrapper {
   transition: background-color 1s ease;
   background-color: var(--my_dark);
