@@ -1,25 +1,31 @@
 <template>
-  <Navbar/>
-  <router-view/>
-  <Footer/>
+  <Navbar />
+
+  <router-view v-slot="{ Component, route }">
+  <transition name="fade" mode="out-in">
+    <div :key="route.name">
+      <component :is="Component"></component>
+    </div>
+  </transition>
+</router-view>
+
+  <Footer />
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
-import Footer from './components/Footer.vue'
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Navbar,
-    Footer
-  }
-}
-
+    Footer,
+  },
+};
 </script>
 
 <style>
-
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
 
 #app {
   font-family: regular, Avenir, Helvetica, Arial, sans-serif;
@@ -29,7 +35,7 @@ export default {
 }
 
 :root {
-  --my_dark: #23272D;
+  --my_dark: #23272d;
   --my_light: #fff;
   --my_dark_grey: #4b597b;
   --my_blue: #01afe6;
@@ -61,7 +67,7 @@ h1 {
 }
 
 ::selection {
-  background: #FFB7B7;
+  background: #ffb7b7;
 }
 
 @font-face {
@@ -75,6 +81,27 @@ h1 {
   src: url("@/assets/fonts/Poppins-Regular.ttf") format("truetype");
   font-display: swap;
 }
+
+
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .4s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+/* .slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to{
+  transform: translateX(10px);
+  opacity: 0;
+} */
+
 
 /*----------------------------
    Buttons
@@ -196,5 +223,4 @@ h1 {
 *:focus {
   outline: 0 !important;
 }
-
 </style>
