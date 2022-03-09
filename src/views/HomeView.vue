@@ -13,20 +13,19 @@
               <h1 class="heading">Hiebeler</h1>
               <h2>
                 <v-typical
-                class="blink"
-                :steps="[
-                  'Sailor',
-                  1500,
-                  'Programmer',
-                  1500,
-                  'HTL Student',
-                  1500,
-                ]"
-                :loop="Infinity"
-                :wrapper="'strong'"
-              ></v-typical>
+                  class="blink"
+                  :steps="[
+                    'Sailor',
+                    1500,
+                    'Programmer',
+                    1500,
+                    'HTL Student',
+                    1500,
+                  ]"
+                  :loop="Infinity"
+                  :wrapper="'strong'"
+                ></v-typical>
               </h2>
-
             </div>
           </div>
           <div class="col-8 col-md-6">
@@ -236,6 +235,31 @@
         </div>
       </div>
     </section>
+
+    <section class="section-tools">
+      <div class="container">
+        <div class="row">
+          <div class="col justify-content-center d-flex pb-5">
+            <Heading text="Tools" />
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div
+            class="d-flex flex-column col-10 col-md-8 col-lg-6 align-items-center"
+          >
+            <p>
+              Between all the games, I also developed some quite useful tools. the
+              list isn't very long yet, but there will be more to come.
+            </p>
+            <div class="row pt-3">
+              <div class="d-flex col justify-content-center">
+                <Button name="Explore" url="tools" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -258,9 +282,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
 .blink::after {
-  content: '|';
+  content: "|";
   animation: blink 1s infinite step-start;
 }
 
@@ -269,7 +292,6 @@ export default defineComponent({
     opacity: 0;
   }
 }
-
 
 .wrapper {
   transition: background-color 1s ease;
@@ -311,6 +333,11 @@ export default defineComponent({
   padding-bottom: 50px;
   color: white;
   position: relative;
+}
+
+.section-tools {
+  background-color: white;
+  padding-top: 70px;
 }
 
 .heading {
