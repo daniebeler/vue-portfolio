@@ -2,7 +2,7 @@
   <Navbar />
 
   <router-view v-slot="{ Component, route }">
-  <transition name="fade" mode="out-in">
+  <transition name="scale" mode="out-in">
     <div :key="route.name">
       <component :is="Component"></component>
     </div>
@@ -84,23 +84,17 @@ h1 {
 
 
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .4s;
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0;
+.scale-enter-active,
+.scale-leave-active {
+  transition: all 0.5s ease;
 }
 
-/* .slide-fade-enter-active {
-  transition: all .3s ease;
-}
-.slide-fade-leave-active {
-  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-}
-.slide-fade-enter, .slide-fade-leave-to{
-  transform: translateX(10px);
+
+.scale-enter-from,
+.scale-leave-to {
   opacity: 0;
-} */
+  transform: scale(0.9);
+}
 
 
 /*----------------------------
