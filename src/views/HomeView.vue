@@ -8,7 +8,7 @@
           >
             <div>
               <h1 class="heading">
-                I'm <span style="color: #dc3545">Daniel</span>
+                I'm <span style="color: var(--my_primary)">Daniel</span>
               </h1>
               <h1 class="heading">Hiebeler</h1>
               <h2>
@@ -341,14 +341,12 @@ export default defineComponent({
 }
 
 .heading {
-  color: #222a2f;
   font-size: 3rem;
   text-align: left;
 }
 
 @media (min-width: 768px) {
   .heading {
-    color: #222a2f;
     font-size: 4.5rem;
     text-align: left;
   }
@@ -377,7 +375,7 @@ export default defineComponent({
 }
 
 .color-red {
-  background-color: #dc3545;
+  background-color: var(--my_primary);
 }
 
 .color-white {
@@ -391,17 +389,5 @@ export default defineComponent({
 .img-logo {
   max-width: 250px;
   border-radius: 15px;
-}
-
-.hero-subtitle {
-  color: #dc3545;
-  font-size: 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .hero-subtitle {
-    color: #dc3545;
-    font-size: 2.5rem;
-  }
 }
 </style>

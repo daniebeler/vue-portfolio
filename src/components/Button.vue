@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .myButton {
-	background-color:#dc3545;
+	background-color: var(--my_primary);
 	border-radius:26px;
 	display:inline-block;
 	cursor:pointer;

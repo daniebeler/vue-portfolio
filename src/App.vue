@@ -35,10 +35,9 @@ export default {
 }
 
 :root {
-  --my_dark: #23272d;
+  --my_dark: #1c1d20;
   --my_light: #fff;
-  --my_dark_grey: #4b597b;
-  --my_blue: #01afe6;
+  --my_primary: #DC3545;
 }
 
 html,

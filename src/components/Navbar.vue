@@ -118,7 +118,6 @@ a:hover::before {
 
 .links .router-link-active {
   text-decoration: none;
-  color: #222a2f;
 }
 
 .links .router-link-active::before,
@@ -136,7 +135,7 @@ a::after {
 .links .router-link-active,
 .links .router-link-active::after,
 .links .router-link-active::before {
-  color: #dc3545;
+  color: var(--my_primary);
   opacity: 1;
 }
 
@@ -181,7 +180,6 @@ a::after {
   padding-top: 10px;
   padding-bottom: 10px;
   transition: 1s;
-  color: #222a2f;
 }
 
 body.offcanvas-active {

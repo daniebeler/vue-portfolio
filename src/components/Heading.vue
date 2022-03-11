@@ -23,7 +23,7 @@ export default {
   content:'';
   height: 3px;
   width: 60px;
-  background:#DC3545;
+  background:var(--my_primary);
   position:absolute;
   margin:auto;
   bottom: -10px;

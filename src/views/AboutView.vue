@@ -212,10 +212,6 @@ export default {
   color: white;
 }
 
-.overlay-txt-git {
-  color: #000000;
-}
-
 .bg-1 {
   position: fixed;
   width: 100vw;
@@ -237,7 +233,7 @@ export default {
   background-color: var(--my_dark);
 }
 .color-red {
-  background-color: #dc3545;
+  background-color: var(--my_primary);
 }
 .color-white {
   background-color: var(--my_light);
