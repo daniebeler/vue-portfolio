@@ -63,10 +63,9 @@
                 Welcome to my page! Here you will find some facts about me and
                 you can get a small overview of my projects.<br /><br />
                 <strong>A bit about me:</strong> At the moment I am attending
-                fifth grade of HTL Dornbirn. I love all kinds of programming,
-                with passion in mobile game development. I also like online
-                challenges like TryHackMe or HackerRank. Especially OSINT
-                challenges are a lot of fun...
+                fifth grade of HTL Dornbirn. I am interested in all kinds of
+                programming projects, especially mobile game development. I also
+                like online challenges like TryHackMe or HackerRank.
               </p>
               <div class="row pt-3">
                 <div class="d-flex col justify-content-center">
@@ -248,8 +247,8 @@
             class="d-flex flex-column col-10 col-md-8 col-lg-6 align-items-center"
           >
             <p>
-              Between all the games, I also developed some quite useful tools. the
-              list isn't very long yet, but there will be more to come.
+              Between all the games, I also developed some quite useful tools.
+              the list isn't very long yet, but there will be more to come.
             </p>
             <div class="row pt-3">
               <div class="d-flex col justify-content-center">
