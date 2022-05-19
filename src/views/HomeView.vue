@@ -128,6 +128,22 @@
       </div>
     </section> -->
 
+    <section class="page_footer d-flex align-items-center justify-content-center">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col d-flex flex-column pb-4">
+          <Heading text="Follow me"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <img class="socialmedia" src="@/assets/img/instagram.png" alt="" @click="openInstagram()">
+          <img class="socialmedia" src="@/assets/img/email.png" alt="" @click="openEmail()">
+        </div>
+      </div>
+    </div>
+  </section>
+
     <section class="page_3 panel" data-color="white">
       <div class="container">
         <div class="row">
@@ -235,6 +251,14 @@ export default defineComponent({
     GameImage,
     VTypical,
   },
+  methods: {
+    openInstagram () {
+      window.open('https://instagram.com/daniebeler', '_blank')
+    },
+    openEmail () {
+      window.open('mailto:hiebeler.daniel@gmail.com')
+    }
+  }
 });
 </script>
 
@@ -298,6 +322,21 @@ export default defineComponent({
   padding-bottom: 50px;
   color: white;
   position: relative;
+}
+
+.page_footer{
+  background-color: #ecb847;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.socialmedia{
+  margin: 5px;
+  width: 50px;
+}
+
+.socialmedia:hover {
+  cursor: pointer;
 }
 
 .section-tools {
