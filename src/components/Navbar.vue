@@ -1,7 +1,7 @@
 /* eslint-disable vue/multi-word-component-names */ /* eslint-disable
 vue/multi-word-component-names */
 <template>
-  <nav class="navbar fixed-top navbar-holder" style="background: white">
+  <nav class="navbar fixed-top navbar-holder" style="background: #ECB847">
     <div class="container" style="z-index: 500">
       <div class="row d-flex flex-grow-1">
         <div class="col-auto d-flex">

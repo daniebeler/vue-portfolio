@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+  <!-- <Navbar /> -->
 
   <router-view v-slot="{ Component, route }">
   <transition name="scale" mode="out-in">
@@ -9,7 +9,7 @@
   </transition>
 </router-view>
 
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
 <script>

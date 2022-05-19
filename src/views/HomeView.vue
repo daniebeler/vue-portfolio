@@ -3,43 +3,60 @@
     <section class="page_1 d-flex justify-content-center">
       <div class="container">
         <div class="row justify-content-center" style="flex-wrap: wrap-reverse">
-          <div
-            class="col-12 col-md-6 justify-content-center align-items-center d-flex flex-column"
-          >
+          <div class="col-12 col-md-6 justify-content-center align-items-center d-flex flex-column">
             <div>
               <h1 class="heading">
                 I'm <span style="color: var(--my_primary)">Daniel</span>
               </h1>
               <h1 class="heading">Hiebeler</h1>
               <h2>
-                <v-typical
-                  class="blink"
-                  :steps="[
-                    'Sailor',
-                    1500,
-                    'Programmer',
-                    1500,
-                    'HTL Student',
-                    1500,
-                  ]"
-                  :loop="Infinity"
-                  :wrapper="'strong'"
-                ></v-typical>
+                <v-typical class="blink" :steps="[
+                  'Sailor',
+                  1500,
+                  'Programmer',
+                  1500,
+                  'HTL Student',
+                  1500,
+                ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
               </h2>
             </div>
           </div>
           <div class="col-8 col-md-6">
-            <img
-              class="p-4 first-img"
-              src="@/assets/img/me.png"
-              alt="Icon of ReflexTest"
-            />
+            <img class="p-4 first-img" src="@/assets/img/me.png" alt="Icon of ReflexTest" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="page_2 panel" data-color="grey">
+    <section class="section-intro">
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px">
+          <div class="col justify-content-center d-flex" style="padding-bottom: 30px">
+            <Heading text="Introduction" />
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 col-lg-6 pe-lg-4 pb-5 pb-lg-5">
+            <img class="intro-img" src="@/assets/img/skeeta.jpg" alt="" />
+          </div>
+          <div class="col-10 col-lg-6 ps-lg-4">
+            <p class="intro-description">
+              Hi! I'm Daniel Hiebeler, programmer with a passion in game
+              development.
+            </p>
+            <p class="intro-description">
+              I'm born in 2003 in Austria. I love programming all kind of stuff.
+              At the moment I am attending fifth grade of HTL Dornbirn. I love all
+              kinds of programming and I also like online challenges like
+              TryHackMe or HackerRank. Especially OSINT challenges are a lot of
+              fun...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="page_2 panel" data-color="grey">
       <div class="container">
         <div class="row">
           <div class="col justify-content-center d-flex pb-5">
@@ -48,14 +65,8 @@
         </div>
 
         <div class="row d-flex justify-content-center">
-          <div
-            class="col-12 col-md-auto d-flex align-items-center justify-content-center"
-          >
-            <img
-              class="m-4 img-logo"
-              src="@/assets/img/me3.jpg"
-              alt="Icon of me"
-            />
+          <div class="col-12 col-md-auto d-flex align-items-center justify-content-center">
+            <img class="m-4 img-logo" src="@/assets/img/me3.jpg" alt="Icon of me" />
           </div>
           <div class="d-flex col-10 col-md align-items-center">
             <div>
@@ -76,9 +87,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="latestprojects">
+    <!-- <section class="latestprojects">
       <div class="container">
         <div class="row">
           <div class="col justify-content-center d-flex pb-5">
@@ -87,11 +98,7 @@
         </div>
         <div class="row" style="padding-bottom: 80px; flex-wrap: wrap-reverse">
           <div class="col-12 col-md-5">
-            <img
-              class="img-project"
-              src="@/assets/img/ideaoverflow-preview.png"
-              alt="Icon of ReflexTest"
-            />
+            <img class="img-project" src="@/assets/img/ideaoverflow-preview.png" alt="Icon of ReflexTest" />
           </div>
           <div class="col-12 col-md-7">
             <h1>Idea Overflow</h1>
@@ -115,127 +122,65 @@
             </p>
           </div>
           <div class="col-12 col-md-5">
-            <img
-              class="img-project"
-              src="@/assets/img/dine-preview.png"
-              alt="Icon of ReflexTest"
-            />
+            <img class="img-project" src="@/assets/img/dine-preview.png" alt="Icon of ReflexTest" />
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="page_3 panel" data-color="white">
       <div class="container">
         <div class="row">
           <div class="col justify-content-center d-flex pb-5">
-            <Heading text="Apps and Games" />
+            <Heading text="Projects" />
           </div>
         </div>
 
         <div class="row">
-          <GameImage
-            image="reflextest.webp"
-            name="Reflextest"
-            color="#0dbc3e"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.reflextest"
-          />
+          <GameImage image="reflextest.webp" name="Reflextest" color="#0dbc3e"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.reflextest" />
 
-          <GameImage
-            image="speed-clicker.webp"
-            name="Speed Clicker"
-            color="#2ca6e9"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.speed_clicker"
-          />
+          <GameImage image="speed-clicker.webp" name="Speed Clicker" color="#2ca6e9"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.speed_clicker" />
 
-          <GameImage
-            image="21.webp"
-            name="Twentyone"
-            color="#5e35b1"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.twentyone"
-          />
+          <GameImage image="21.webp" name="Twentyone" color="#5e35b1"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.twentyone" />
 
-          <GameImage
-            image="mine-boy.webp"
-            name="MineBoy"
-            color="#653814"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.MineBoy"
-          />
+          <GameImage image="mine-boy.webp" name="MineBoy" color="#653814"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.MineBoy" />
 
-          <GameImage
-            image="toggle-together.webp"
-            name="Toggle Together"
-            color="#2279ff"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.toggletogether"
-          />
+          <GameImage image="toggle-together.webp" name="Toggle Together" color="#2279ff"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.toggletogether" />
 
-          <GameImage
-            image="justwatchad.webp"
-            name="Just Watch Ad"
-            color="#ffb602"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.justwatchad"
-          />
+          <GameImage image="justwatchad.webp" name="Just Watch Ad" color="#ffb602"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.justwatchad" />
 
-          <GameImage
-            image="parkingjam.webp"
-            name="Parking Jam"
-            color="#ed8923"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.RushHour"
-          />
+          <GameImage image="parkingjam.webp" name="Parking Jam" color="#ed8923"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.RushHour" />
 
-          <GameImage
-            image="wrongway.webp"
-            name="Wrong Way"
-            color="#32aa50"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.wrongway"
-          />
+          <GameImage image="wrongway.webp" name="Wrong Way" color="#32aa50"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.wrongway" />
 
-          <GameImage
-            image="balance.webp"
-            name="Balance - The Game"
-            color="#ffc656"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.Balance"
-          />
+          <GameImage image="balance.webp" name="Balance - The Game" color="#ffc656"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.Balance" />
 
-          <GameImage
-            image="pong.webp"
-            name="1D Pong"
-            color="#ef6060"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong"
-          />
+          <GameImage image="pong.webp" name="1D Pong" color="#ef6060"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong" />
 
-          <GameImage
-            image="rocket.webp"
-            name="Risky Rocket"
-            color="#31c381"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.RiskyRocket"
-          />
+          <GameImage image="rocket.webp" name="Risky Rocket" color="#31c381"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.RiskyRocket" />
 
-          <GameImage
-            image="dailytasks.webp"
-            name="Daily Tasks"
-            color="#212121"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks"
-          />
+          <GameImage image="dailytasks.webp" name="Daily Tasks" color="#212121"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks" />
 
-          <GameImage
-            image="idea-overflow.svg"
-            name="Idea Overflow"
-            color="#0cc87e"
-            url="https://ideaoverflow.xyz"
-          />
+          <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e" url="https://ideaoverflow.xyz" />
 
-          <GameImage
-            image="dine.png"
-            name="dine."
-            color="#dfcfb0"
-            url="https://dine-app.at"
-          />
+          <GameImage image="dine.png" name="dine." color="#dfcfb0" url="https://dine-app.at" />
         </div>
       </div>
     </section>
 
-    <section class="section-tools">
+    <!-- <section class="section-tools">
       <div class="container">
         <div class="row">
           <div class="col justify-content-center d-flex pb-5">
@@ -255,6 +200,19 @@
                 <Button name="Explore" url="tools" />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="holder section-contact">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col flex-column d-flex justify-content-center text-center">
+            <Heading text="Get in touch" />
+            <h1 class="email">
+              hiebeler.daniel<span style="color: var(--my_primary)">@</span>gmail.com
+            </h1>
           </div>
         </div>
       </div>
@@ -301,7 +259,7 @@ export default defineComponent({
   height: 100vh;
   color: var(--my_dark);
   flex-direction: column;
-  background-color: white;
+  background-color: #ecb847;
 }
 
 .first-img {
@@ -309,12 +267,19 @@ export default defineComponent({
   border-radius: 50%;
 }
 
-.page_2 {
-  color: var(--my_light);
-  font-size: 1.2rem;
-  padding-top: 50px;
+.section-intro {
+  padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--my_dark);
+  background-color: #ECB847;
+}
+
+.intro-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.intro-description {
+  font-size: 1.5rem;
 }
 
 .img-project {
@@ -324,7 +289,8 @@ export default defineComponent({
 
 .latestprojects {
   padding-top: 50px;
-  color: white;
+  color: var(--my_dark);
+  background-color: #ecb847;
 }
 
 .page_3 {
@@ -335,7 +301,7 @@ export default defineComponent({
 }
 
 .section-tools {
-  background-color: white;
+  background-color: #ecb847;
   padding-top: 70px;
 }
 
@@ -388,5 +354,18 @@ export default defineComponent({
 .img-logo {
   max-width: 250px;
   border-radius: 15px;
+}
+
+.section-contact {
+  background-color: #ecb847;
+  color: var(--my_dark);
+  padding-top: 100px;
+  padding-bottom: 200px;
+  height: 100vh;
+}
+
+.email {
+  padding-top: 50px;
+  font-size: 4vw;
 }
 </style>
