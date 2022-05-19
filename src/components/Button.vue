@@ -2,7 +2,7 @@
   <a :href="url" class="btn_genera btn_ligh myButton"><strong>{{name}}</strong></a>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: "Button",
   props: {

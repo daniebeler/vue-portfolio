@@ -2,7 +2,7 @@
   <h1>{{text}}</h1>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Heading',

@@ -1,13 +1,25 @@
 <template>
-  <HomeView></HomeView>
+  <!-- <Navbar /> -->
+
+  <router-view v-slot="{ Component, route }">
+  <transition name="scale" mode="out-in">
+    <div :key="route.name">
+      <component :is="Component"></component>
+    </div>
+  </transition>
+</router-view>
+
+  <!-- <Footer /> -->
 </template>
 
-<script lang="ts">
-import HomeView from "./views/HomeView.vue";
+<script>
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
-    HomeView,
+    Navbar,
+    Footer,
   },
 };
 </script>
@@ -25,7 +37,7 @@ export default {
 :root {
   --my_dark: #1c1d20;
   --my_light: #fff;
-  --my_primary: #dc3545;
+  --my_primary: #DC3545;
 }
 
 html,
@@ -69,16 +81,20 @@ h1 {
   font-display: swap;
 }
 
+
+
 .scale-enter-active,
 .scale-leave-active {
   transition: all 0.5s ease;
 }
+
 
 .scale-enter-from,
 .scale-leave-to {
   opacity: 0;
   transform: scale(0.9);
 }
+
 
 /*----------------------------
    Buttons
@@ -132,7 +148,6 @@ h1 {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
 .btn_dark::after {
   opacity: 0;
   border: 2px solid var(--my_dark);
@@ -186,7 +201,6 @@ h1 {
   -webkit-transform: scale(0.5);
   transform: scale(0.5);
 }
-
 .btn_dark:hover::after,
 .btn_blue:hover::after {
   opacity: 1;
