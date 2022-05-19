@@ -22,7 +22,7 @@
             </div>
           </div>
           <div class="col-8 col-md-6">
-            <img class="p-4 first-img" src="@/assets/img/me.png" alt="Icon of ReflexTest" />
+            <img class="p-4 first-img" src="@/assets/img/daniel.webp" alt="Icon of ReflexTest" />
           </div>
         </div>
       </div>
