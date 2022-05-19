@@ -72,78 +72,6 @@
       </div>
     </section>
 
-    <!-- <section class="page_2 panel" data-color="grey">
-      <div class="container">
-        <div class="row">
-          <div class="col justify-content-center d-flex pb-5">
-            <Heading text="Who am I" />
-          </div>
-        </div>
-
-        <div class="row d-flex justify-content-center">
-          <div class="col-12 col-md-auto d-flex align-items-center justify-content-center">
-            <img class="m-4 img-logo" src="@/assets/img/me3.jpg" alt="Icon of me" />
-          </div>
-          <div class="d-flex col-10 col-md align-items-center">
-            <div>
-              <p>
-                Welcome to my page! Here you will find some facts about me and
-                you can get a small overview of my projects.<br /><br />
-                <strong>A bit about me:</strong> At the moment I am attending
-                fifth grade of HTL Dornbirn. I am interested in all kinds of
-                programming projects, especially mobile game development. I also
-                like online challenges like TryHackMe or HackerRank.
-              </p>
-              <div class="row pt-3">
-                <div class="d-flex col justify-content-center">
-                  <Button name="More Information" url="about" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section class="latestprojects">
-      <div class="container">
-        <div class="row">
-          <div class="col justify-content-center d-flex pb-5">
-            <Heading text="Latest Projects" />
-          </div>
-        </div>
-        <div class="row" style="padding-bottom: 80px; flex-wrap: wrap-reverse">
-          <div class="col-12 col-md-5">
-            <img class="img-project" src="@/assets/img/ideaoverflow-preview.png" alt="Icon of ReflexTest" />
-          </div>
-          <div class="col-12 col-md-7">
-            <h1>Idea Overflow</h1>
-            <p>
-              With Idea Overflow I am developing a social network specifically
-              for software developers where everyone can share ideas.
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12 col-md-7">
-            <h1>dine.</h1>
-            <p>
-              Together with some friends I founded the startup “dine.”. It is a
-              delivery service app that promotes sustainable and healthy food.
-              The app virtually collects all orders from a school or company and
-              sends them together to the supplier. As a result, the supplier
-              only has to drive once and the ordering process is simplified for
-              everyone involved.
-            </p>
-          </div>
-          <div class="col-12 col-md-5">
-            <img class="img-project" src="@/assets/img/dine-preview.png" alt="Icon of ReflexTest" />
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <section class="page_3 panel" data-color="white">
       <div class="container">
         <div class="row">
@@ -196,31 +124,6 @@
       </div>
     </section>
 
-    <!-- <section class="section-tools">
-      <div class="container">
-        <div class="row">
-          <div class="col justify-content-center d-flex pb-5">
-            <Heading text="Tools" />
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div
-            class="d-flex flex-column col-10 col-md-8 col-lg-6 align-items-center"
-          >
-            <p>
-              Between all the games, I also developed some quite useful tools.
-              the list isn't very long yet, but there will be more to come.
-            </p>
-            <div class="row pt-3">
-              <div class="d-flex col justify-content-center">
-                <Button name="Explore" url="tools" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <section class="holder section-contact">
       <div class="container h-100">
         <div class="row h-100">
@@ -239,7 +142,6 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import Heading from "@/components/Heading.vue";
-import Button from "@/components/Button.vue";
 import GameImage from "@/components/GameImage.vue";
 import VTypical from "vue-typical";
 
@@ -247,15 +149,14 @@ export default defineComponent({
   name: "HomeView",
   components: {
     Heading,
-    Button,
     GameImage,
     VTypical,
   },
   methods: {
-    openInstagram () {
+    openInstagram() {
       window.open('https://instagram.com/daniebeler', '_blank')
     },
-    openEmail () {
+    openEmail() {
       window.open('mailto:hiebeler.daniel@gmail.com')
     }
   }
@@ -317,13 +218,13 @@ export default defineComponent({
   background-color: #ecb847;
 }
 
-.page_footer{
+.page_footer {
   background-color: #ecb847;
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
-.socialmedia{
+.socialmedia {
   margin: 5px;
   width: 50px;
 }
