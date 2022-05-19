@@ -46,11 +46,27 @@
             </p>
             <p class="intro-description">
               I'm born in 2003 in Austria. I love programming all kind of stuff.
-              At the moment I am attending fifth grade of HTL Dornbirn. I love all
-              kinds of programming and I also like online challenges like
+              At the moment I am attending fifth grade of HTL Dornbirn. I love
+              all kinds of programming and I also like online challenges like
               TryHackMe or HackerRank. Especially OSINT challenges are a lot of
               fun...
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page_footer d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col d-flex flex-column pb-4">
+            <Heading text="Follow me" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <img class="socialmedia" src="@/assets/img/instagram.png" alt="" @click="openInstagram()" />
+            <img class="socialmedia" src="@/assets/img/email.png" alt="" @click="openEmail()" />
           </div>
         </div>
       </div>
@@ -235,6 +251,14 @@ export default defineComponent({
     GameImage,
     VTypical,
   },
+  methods: {
+    openInstagram () {
+      window.open('https://instagram.com/daniebeler', '_blank')
+    },
+    openEmail () {
+      window.open('mailto:hiebeler.daniel@gmail.com')
+    }
+  }
 });
 </script>
 
@@ -270,7 +294,7 @@ export default defineComponent({
 .section-intro {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #ECB847;
+  background-color: #ecb847;
 }
 
 .intro-img {
@@ -291,6 +315,21 @@ export default defineComponent({
   padding-top: 50px;
   color: var(--my_dark);
   background-color: #ecb847;
+}
+
+.page_footer{
+  background-color: #ecb847;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.socialmedia{
+  margin: 5px;
+  width: 50px;
+}
+
+.socialmedia:hover {
+  cursor: pointer;
 }
 
 .page_3 {

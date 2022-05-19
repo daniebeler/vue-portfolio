@@ -1,25 +1,13 @@
 <template>
-  <!-- <Navbar /> -->
-
-  <router-view v-slot="{ Component, route }">
-  <transition name="scale" mode="out-in">
-    <div :key="route.name">
-      <component :is="Component"></component>
-    </div>
-  </transition>
-</router-view>
-
-  <!-- <Footer /> -->
+  <HomeView></HomeView>
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
-import Footer from "./components/Footer.vue";
+import HomeView from "./views/HomeView.vue";
 export default {
   name: "App",
   components: {
-    Navbar,
-    Footer,
+    HomeView,
   },
 };
 </script>
@@ -37,7 +25,7 @@ export default {
 :root {
   --my_dark: #1c1d20;
   --my_light: #fff;
-  --my_primary: #DC3545;
+  --my_primary: #dc3545;
 }
 
 html,
@@ -81,20 +69,16 @@ h1 {
   font-display: swap;
 }
 
-
-
 .scale-enter-active,
 .scale-leave-active {
   transition: all 0.5s ease;
 }
-
 
 .scale-enter-from,
 .scale-leave-to {
   opacity: 0;
   transform: scale(0.9);
 }
-
 
 /*----------------------------
    Buttons
