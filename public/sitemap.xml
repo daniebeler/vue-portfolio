@@ -2,27 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://daniebeler.com/</loc>
-    <lastmod>2022-03-21T20:39:04+00:00</lastmod>
+    <lastmod>2022-05-29T20:39:04+00:00</lastmod>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://daniebeler.com/about/</loc>
-    <lastmod>2022-03-21T20:39:04+00:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://daniebeler.com/contact/</loc>
-    <lastmod>2022-03-21T20:39:04+00:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://daniebeler.com/tools/</loc>
-    <lastmod>2022-03-21T20:39:04+00:00</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://daniebeler.com/tools/colors</loc>
-    <lastmod>2022-03-21T20:39:04+00:00</lastmod>
-    <priority>0.6</priority>
   </url>
 </urlset>
