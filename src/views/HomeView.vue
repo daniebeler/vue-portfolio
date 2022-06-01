@@ -56,6 +56,24 @@
       </div>
     </section>
 
+    <section class="section-intro">
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px">
+          <div class="col justify-content-center d-flex" style="padding-bottom: 30px">
+            <Heading text="Some images" />
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-12 grid-container">
+            <div class="item1"><img class="intro-img" src="@/assets/img/me3-ar.jpg" alt="" /></div>
+            <div class="item2"><img class="intro-img" src="@/assets/img/sailing-ar.jpg" alt="" /></div>
+            <div class="item3"><img class="intro-img" src="@/assets/img/skeeta.jpg" alt="" /></div>
+            <div class="item4"><img class="intro-img" src="@/assets/img/me.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="page_footer d-flex align-items-center justify-content-center">
       <div class="container">
         <div class="row d-flex">
@@ -180,6 +198,35 @@ export default defineComponent({
   background-color: var(--my_dark);
 }
 
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: menu;
+}
+
+.item3 {
+  grid-area: main;
+}
+
+.item4 {
+  grid-area: right;
+}
+
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header menu menu'
+    'header main main'
+    'right main main';
+  gap: 10px;
+}
+
 .page_1 {
   height: 100vh;
   color: var(--my_dark);
@@ -220,8 +267,8 @@ export default defineComponent({
 
 .page_footer {
   background-color: #ecb847;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .socialmedia {
