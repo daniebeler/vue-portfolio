@@ -84,6 +84,7 @@
         <div class="row">
           <div class="col d-flex justify-content-center">
             <img class="socialmedia" src="@/assets/img/instagram.png" alt="" @click="openInstagram()" />
+            <img class="socialmedia" src="@/assets/img/github.png" alt="" @click="openGithub()" />
             <img class="socialmedia" src="@/assets/img/email.png" alt="" @click="openEmail()" />
           </div>
         </div>
@@ -138,6 +139,8 @@
           <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e" url="https://ideaoverflow.xyz" />
 
           <GameImage image="dine.png" name="dine." color="#dfcfb0" url="https://dine-app.at" />
+
+          <GameImage image="buckets-of-bookmarks.png" name="Buckets of Bookmarks" color="#ffb24b" url="https://buckets-of-bookmarks.daniebeler.com" />
         </div>
       </div>
     </section>
@@ -173,6 +176,9 @@ export default defineComponent({
   methods: {
     openInstagram() {
       window.open('https://instagram.com/daniebeler', '_blank')
+    },
+    openGithub() {
+      window.open('https://github.com/daniebeler', '_blank')
     },
     openEmail() {
       window.open('mailto:hiebeler.daniel@gmail.com')
