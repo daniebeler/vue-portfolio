@@ -136,11 +136,17 @@
           <GameImage image="dailytasks.webp" name="Daily Tasks" color="#212121"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks" />
 
-          <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e" url="https://ideaoverflow.xyz" />
+          <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e"
+            url="https://ideaoverflow.xyz" />
 
-          <GameImage image="dine.png" name="dine." color="#dfcfb0" url="https://dine-app.at" />
+          <GameImage image="dine.png" name="dine." color="#dfcfb0"
+            url="https://dine-app.at" />
 
-          <GameImage image="buckets-of-bookmarks.png" name="Buckets of Bookmarks" color="#ffb24b" url="https://buckets-of-bookmarks.daniebeler.com" />
+          <GameImage image="day-in-percent.png" name="Day in Percent" color="#212121"
+            url="https://day-in-percent.daniebeler.com/" />
+
+          <GameImage image="buckets-of-bookmarks.png" name="Buckets of Bookmarks" color="#ffb24b"
+            url="https://buckets-of-bookmarks.daniebeler.com" />
         </div>
       </div>
     </section>
