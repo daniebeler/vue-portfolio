@@ -68,7 +68,7 @@
             <div class="item1"><img class="intro-img" src="@/assets/img/me3-ar.jpg" alt="" /></div>
             <div class="item2"><img class="intro-img" src="@/assets/img/sailing-ar.jpg" alt="" /></div>
             <div class="item3"><img class="intro-img" src="@/assets/img/skeeta.jpg" alt="" /></div>
-            <div class="item4"><img class="intro-img" src="@/assets/img/me.png" alt="" /></div>
+            <div class="item4"><img class="intro-img" src="@/assets/img/selfie.jpg" alt="" /></div>
           </div>
         </div>
       </div>
@@ -280,7 +280,7 @@ export default defineComponent({
 
 .intro-img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .intro-description {

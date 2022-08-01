@@ -1,7 +1,7 @@
 <template>
   <div class="col-6 col-lg-3 pt-3 col-md-4 pb-3 cont">
     <img class="img" :src="require(`@/assets/img/${image}`)" alt="Icon" @click="openUrl()"/>
-    <div class="row pt-3">
+    <div class="row">
       <div class="col d-flex flex-column justify-content-center">
         <div class="release-date" v-bind:style="{ backgroundColor: color}">{{ date }}</div>
         <p>{{ name }}</p>
@@ -47,7 +47,8 @@ export default {
 .release-date {
   width: fit-content;
   border-radius: 3px;
-  padding: 2px;
+  padding: 1px 4px;
+  margin: 15px 0 5px 0;
   font-size: 0.8rem;
 }
 
