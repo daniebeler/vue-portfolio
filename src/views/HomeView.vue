@@ -91,61 +91,82 @@
       </div>
     </section>
 
+    <!-- <section class="page_case_studies d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col d-flex flex-column pb-4">
+            <Heading text="Best Projects" />
+          </div>
+        </div>
+        <div class="row pb-5">
+          <div class="col d-flex justify-content-center">
+            <img class="case-study" src="@/assets/img/cs1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col d-flex justify-content-center">
+            <img class="case-study" src="@/assets/img/cs1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
     <section class="page_3 panel" data-color="white">
       <div class="container">
         <div class="row">
           <div class="col justify-content-center d-flex pb-5">
-            <Heading text="Projects" />
+            <Heading text="All Projects" />
           </div>
         </div>
 
         <div class="row">
-          <GameImage image="reflextest.webp" name="Reflextest" color="#0dbc3e"
+          <GameImage image="reflextest.webp" name="Reflextest" color="#0dbc3e" date="2018"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.reflextest" />
 
-          <GameImage image="speed-clicker.webp" name="Speed Clicker" color="#2ca6e9"
+          <GameImage image="speed-clicker.webp" name="Speed Clicker" color="#2ca6e9" date="2018"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.speed_clicker" />
 
-          <GameImage image="21.webp" name="Twentyone" color="#5e35b1"
+          <GameImage image="21.webp" name="Twentyone" color="#5e35b1" date="2019"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.twentyone" />
 
-          <GameImage image="mine-boy.webp" name="MineBoy" color="#653814"
+          <GameImage image="mine-boy.webp" name="MineBoy" color="#653814" date="2019"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.MineBoy" />
 
-          <GameImage image="toggle-together.webp" name="Toggle Together" color="#2279ff"
+          <GameImage image="toggle-together.webp" name="Toggle Together" color="#2279ff" date="2019"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.toggletogether" />
 
-          <GameImage image="justwatchad.webp" name="Just Watch Ad" color="#ffb602"
+          <GameImage image="justwatchad.webp" name="Just Watch Ad" color="#ffb602" date="2020"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.justwatchad" />
 
-          <GameImage image="parkingjam.webp" name="Parking Jam" color="#ed8923"
+          <GameImage image="parkingjam.webp" name="Parking Jam" color="#ed8923" date="2020"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.RushHour" />
 
-          <GameImage image="wrongway.webp" name="Wrong Way" color="#32aa50"
+          <GameImage image="wrongway.webp" name="Wrong Way" color="#32aa50" date="2020"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.wrongway" />
 
-          <GameImage image="balance.webp" name="Balance - The Game" color="#ffc656"
+          <GameImage image="balance.webp" name="Balance - The Game" color="#ffc656" date="2020"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.Balance" />
 
-          <GameImage image="pong.webp" name="1D Pong" color="#ef6060"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong" />
-
-          <GameImage image="rocket.webp" name="Risky Rocket" color="#31c381"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.RiskyRocket" />
-
-          <GameImage image="dailytasks.webp" name="Daily Tasks" color="#212121"
+            <GameImage image="dailytasks.webp" name="Daily Tasks" color="#212121" date="2020"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks" />
 
-          <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e"
+          <GameImage image="pong.webp" name="1D Pong" color="#ef6060" date="2021"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong" />
+
+          <GameImage image="rocket.webp" name="Risky Rocket" color="#31c381" date="2021"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.RiskyRocket" />
+
+          <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e" date="2022"
             url="https://ideaoverflow.xyz" />
 
-          <GameImage image="dine.png" name="dine." color="#dfcfb0"
+          <GameImage image="dine.png" name="dine." color="#dfcfb0" date="2020 - 2022"
             url="https://dine-app.at" />
 
-          <GameImage image="day-in-percent.png" name="Day in Percent" color="#212121"
+          <GameImage image="day-in-percent.png" name="Day in Percent" color="#212121" date="2022"
             url="https://day-in-percent.daniebeler.com/" />
 
-          <GameImage image="buckets-of-bookmarks.png" name="Buckets of Bookmarks" color="#ffb24b"
+          <GameImage image="buckets-of-bookmarks.png" name="Buckets of Bookmarks" color="#ffb24b" date="2022"
             url="https://buckets-of-bookmarks.daniebeler.com" />
         </div>
       </div>
@@ -281,6 +302,18 @@ export default defineComponent({
   background-color: #ecb847;
   padding-top: 130px;
   padding-bottom: 130px;
+}
+
+.page_case_studies {
+  background-color: var(--my_dark);
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.case-study{
+  width: 100%;
+  border-radius: 15px;
 }
 
 .socialmedia {
