@@ -166,7 +166,7 @@
           <GameImage image="day-in-percent.png" name="Day in Percent" color="#212121" date="2022"
             url="https://day-in-percent.daniebeler.com/" />
 
-          <GameImage image="buckets-of-bookmarks.png" name="Buckets of Bookmarks" color="#ffb24b" date="2022"
+          <GameImage image="bob.png" name="Buckets of Bookmarks" color="#ffb24b" date="2022"
             url="https://buckets-of-bookmarks.daniebeler.com" />
         </div>
       </div>
