@@ -91,26 +91,26 @@
       </div>
     </section>
 
-    <!-- <section class="page_case_studies d-flex align-items-center justify-content-center">
+    <section class="page_case_studies d-flex align-items-center justify-content-center">
       <div class="container">
         <div class="row d-flex">
-          <div class="col d-flex flex-column pb-4">
+          <div class="col d-flex flex-column pb-5">
             <Heading text="Best Projects" />
           </div>
         </div>
         <div class="row pb-5">
           <div class="col d-flex justify-content-center">
-            <img class="case-study" src="@/assets/img/cs1.png" alt="" />
+            <img class="case-study" src="@/assets/img/dine-case-study.png" alt="" />
           </div>
         </div>
 
-        <div class="row pt-5">
+        <!-- <div class="row pt-5">
           <div class="col d-flex justify-content-center">
             <img class="case-study" src="@/assets/img/cs1.png" alt="" />
           </div>
-        </div>
+        </div> -->
       </div>
-    </section> -->
+    </section>
 
     <section class="page_3 panel" data-color="white">
       <div class="container">
@@ -247,10 +247,6 @@ export default defineComponent({
   grid-area: right;
 }
 
-.item5 {
-  grid-area: footer;
-}
-
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -287,17 +283,6 @@ export default defineComponent({
   font-size: 1.5rem;
 }
 
-.img-project {
-  width: 100%;
-  border-radius: 15px;
-}
-
-.latestprojects {
-  padding-top: 50px;
-  color: var(--my_dark);
-  background-color: #ecb847;
-}
-
 .page_footer {
   background-color: #ecb847;
   padding-top: 130px;
@@ -308,12 +293,11 @@ export default defineComponent({
   background-color: var(--my_dark);
   color: white;
   padding-top: 130px;
-  padding-bottom: 130px;
 }
 
 .case-study{
   width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .socialmedia {
@@ -332,11 +316,6 @@ export default defineComponent({
   position: relative;
 }
 
-.section-tools {
-  background-color: #ecb847;
-  padding-top: 70px;
-}
-
 .heading {
   font-size: 3rem;
   text-align: left;
@@ -347,45 +326,6 @@ export default defineComponent({
     font-size: 4.5rem;
     text-align: left;
   }
-}
-
-.project-holder {
-  background-color: #f3f5f6;
-  padding: 0.9rem 1.1rem 0.9rem;
-  border-radius: 10px;
-  margin-bottom: 3rem;
-  transition: 0.5s;
-}
-
-.project-holder:hover {
-  cursor: pointer;
-  transform: translateY(-10px);
-}
-
-.about-holder {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.color-grey {
-  background-color: var(--my_dark);
-}
-
-.color-red {
-  background-color: var(--my_primary);
-}
-
-.color-white {
-  background-color: var(--my_light);
-}
-
-.color-transparent {
-  background-color: transparent;
-}
-
-.img-logo {
-  max-width: 250px;
-  border-radius: 15px;
 }
 
 .section-contact {
