@@ -83,8 +83,8 @@
         </div>
         <div class="row">
           <div class="col d-flex justify-content-center">
-            <img class="socialmedia" src="@/assets/img/instagram.png" alt="" @click="openInstagram()" />
-            <img class="socialmedia" src="@/assets/img/github.png" alt="" @click="openGithub()" />
+            <img class="socialmedia" src="@/assets/img/instagram.png" alt="" @click="openUrl('https://instagram.com/daniebeler')" />
+            <img class="socialmedia" src="@/assets/img/github.png" alt="" @click="openUrl('https://github.com/daniebeler')" />
             <img class="socialmedia" src="@/assets/img/email.png" alt="" @click="openEmail()" />
           </div>
         </div>
@@ -100,15 +100,9 @@
         </div>
         <div class="row pb-5">
           <div class="col d-flex justify-content-center">
-            <img class="case-study" src="@/assets/img/dine-case-study.png" alt="" />
+            <img class="case-study" src="@/assets/img/dine-case-study.png" alt="" @click="openUrl('https://dine-app.at')" />
           </div>
         </div>
-
-        <!-- <div class="row pt-5">
-          <div class="col d-flex justify-content-center">
-            <img class="case-study" src="@/assets/img/cs1.png" alt="" />
-          </div>
-        </div> -->
       </div>
     </section>
 
@@ -201,16 +195,13 @@ export default defineComponent({
     VTypical,
   },
   methods: {
-    openInstagram() {
-      window.open('https://instagram.com/daniebeler', '_blank')
-    },
-    openGithub() {
-      window.open('https://github.com/daniebeler', '_blank')
-    },
     openEmail() {
       window.open('mailto:hiebeler.daniel@gmail.com')
-    }
-  }
+    },
+    openUrl(url: string) {
+      window.open(url, "_blank");
+    },
+  },
 });
 </script>
 
@@ -298,6 +289,10 @@ export default defineComponent({
 .case-study{
   width: 100%;
   border-radius: 10px;
+}
+
+.case-study:hover {
+  cursor: pointer;
 }
 
 .socialmedia {
