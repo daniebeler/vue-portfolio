@@ -103,6 +103,12 @@
             <img class="case-study" src="@/assets/img/dine-case-study.png" alt="" @click="openUrl('https://dine-app.at')" />
           </div>
         </div>
+
+        <div class="row pb-5">
+          <div class="col d-flex justify-content-center">
+            <img class="case-study" src="@/assets/img/io-case-study.png" alt="" @click="openUrl('https://ideaoverflow.xyz')" />
+          </div>
+        </div>
       </div>
     </section>
 
