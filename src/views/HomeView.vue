@@ -37,7 +37,7 @@
         </div>
         <div class="row d-flex justify-content-center">
           <div class="col-10 col-lg-6 pe-lg-4 pb-5 pb-lg-5">
-            <img class="intro-img" src="@/assets/img/skeeta.jpg" alt="" />
+            <img class="intro-img" src="@/assets/img/skeeta.webp" alt="" />
           </div>
           <div class="col-10 col-lg-6 ps-lg-4">
             <p class="intro-description">
@@ -65,10 +65,10 @@
         </div>
         <div class="row d-flex">
           <div class="col-12 grid-container">
-            <div class="item1"><img class="intro-img" src="@/assets/img/me3-ar.jpg" alt="" /></div>
-            <div class="item2"><img class="intro-img" src="@/assets/img/sailing-ar.jpg" alt="" /></div>
-            <div class="item3"><img class="intro-img" src="@/assets/img/skeeta.jpg" alt="" /></div>
-            <div class="item4"><img class="intro-img" src="@/assets/img/selfie.jpg" alt="" /></div>
+            <div class="item1"><img class="intro-img" src="@/assets/img/me3-ar.webp" alt="" /></div>
+            <div class="item2"><img class="intro-img" src="@/assets/img/sailing-ar.webp" alt="" /></div>
+            <div class="item3"><img class="intro-img" src="@/assets/img/skeeta.webp" alt="" /></div>
+            <div class="item4"><img class="intro-img" src="@/assets/img/selfie.webp" alt="" /></div>
           </div>
         </div>
       </div>
@@ -83,9 +83,9 @@
         </div>
         <div class="row">
           <div class="col d-flex justify-content-center">
-            <img class="socialmedia" src="@/assets/img/instagram.png" alt="" @click="openUrl('https://instagram.com/daniebeler')" />
-            <img class="socialmedia" src="@/assets/img/github.png" alt="" @click="openUrl('https://github.com/daniebeler')" />
-            <img class="socialmedia" src="@/assets/img/email.png" alt="" @click="openEmail()" />
+            <img class="socialmedia" src="@/assets/img/instagram.webp" alt="" @click="openUrl('https://instagram.com/daniebeler')" />
+            <img class="socialmedia" src="@/assets/img/github.webp" alt="" @click="openUrl('https://github.com/daniebeler')" />
+            <img class="socialmedia" src="@/assets/img/email.webp" alt="" @click="openEmail()" />
           </div>
         </div>
       </div>
@@ -100,13 +100,13 @@
         </div>
         <div class="row pb-5">
           <div class="col d-flex justify-content-center">
-            <img class="case-study" src="@/assets/img/dine-case-study.png" alt="" @click="openUrl('https://dine-app.at')" />
+            <img class="case-study" src="@/assets/img/dine-case-study.webp" alt="" @click="openUrl('https://dine-app.at')" />
           </div>
         </div>
 
         <div class="row pb-5">
           <div class="col d-flex justify-content-center">
-            <img class="case-study" src="@/assets/img/io-case-study.png" alt="" @click="openUrl('https://ideaoverflow.xyz')" />
+            <img class="case-study" src="@/assets/img/io-case-study.webp" alt="" @click="openUrl('https://ideaoverflow.xyz')" />
           </div>
         </div>
       </div>
@@ -160,13 +160,13 @@
           <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e" date="2022"
             url="https://ideaoverflow.xyz" />
 
-          <GameImage image="dine.png" name="dine." color="#dfcfb0" date="2020 - 2022"
+          <GameImage image="dine.webp" name="dine." color="#dfcfb0" date="2020 - 2022"
             url="https://dine-app.at" />
 
-          <GameImage image="day-in-percent.png" name="Day in Percent" color="#212121" date="2022"
+          <GameImage image="day-in-percent.webp" name="Day in Percent" color="#212121" date="2022"
             url="https://day-in-percent.daniebeler.com/" />
 
-          <GameImage image="bob.png" name="Buckets of Bookmarks" color="#ffb24b" date="2022"
+          <GameImage image="bob.webp" name="Buckets of Bookmarks" color="#ffb24b" date="2022"
             url="https://buckets-of-bookmarks.daniebeler.com" />
         </div>
       </div>
