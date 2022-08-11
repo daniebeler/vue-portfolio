@@ -15,6 +15,8 @@
                   1500,
                   'Programmer',
                   1500,
+                  'Metalhead🤘',
+                  1500,
                   'HTL Student',
                   1500,
                 ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
