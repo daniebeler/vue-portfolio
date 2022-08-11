@@ -11,13 +11,11 @@
               <h1 class="heading">Hiebeler</h1>
               <h2>
                 <v-typical class="blink" :steps="[
-                  'Sailor',
+                  'Sailor⛵',
                   1500,
-                  'Programmer',
+                  'Programmer💻',
                   1500,
                   'Metalhead🤘',
-                  1500,
-                  'HTL Student',
                   1500,
                 ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
               </h2>
