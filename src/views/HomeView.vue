@@ -17,6 +17,8 @@
                   1500,
                   'Metalhead🤘',
                   1500,
+                  'Game Dev🎮',
+                  1500,
                 ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
               </h2>
             </div>
