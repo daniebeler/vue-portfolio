@@ -133,7 +133,7 @@
             url="https://play.google.com/store/apps/details?id=com.daniebeler.twentyone" />
 
           <GameImage image="mine-boy.webp" name="MineBoy" color="#653814" date="2019"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.MineBoy" />
+            url="https://daniebeler.itch.io/mineboy" />
 
           <GameImage image="toggle-together.webp" name="Toggle Together" color="#2279ff" date="2019"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.toggletogether" />
@@ -142,13 +142,13 @@
             url="https://play.google.com/store/apps/details?id=com.daniebeler.justwatchad" />
 
           <GameImage image="parkingjam.webp" name="Parking Jam" color="#ed8923" date="2020"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.RushHour" />
+            url="https://daniebeler.itch.io/parking-jam" />
 
           <GameImage image="wrongway.webp" name="Wrong Way" color="#32aa50" date="2020"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.wrongway" />
 
           <GameImage image="balance.webp" name="Balance - The Game" color="#ffc656" date="2020"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.Balance" />
+            url="https://daniebeler.itch.io/balance" />
 
             <GameImage image="dailytasks.webp" name="Daily Tasks" color="#212121" date="2020"
             url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks" />
@@ -157,7 +157,7 @@
             url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong" />
 
           <GameImage image="rocket.webp" name="Risky Rocket" color="#31c381" date="2021"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.RiskyRocket" />
+            url="https://daniebeler.itch.io/risky-rocket" />
 
           <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e" date="2022"
             url="https://ideaoverflow.xyz" />
