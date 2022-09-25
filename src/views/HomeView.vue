@@ -67,10 +67,12 @@
         </div>
         <div class="row d-flex">
           <div class="col-12 grid-container">
-            <div class="item1"><img class="intro-img" src="@/assets/img/me3-ar.webp" alt="" /></div>
-            <div class="item2"><img class="intro-img" src="@/assets/img/sailing-ar.webp" alt="" /></div>
+            <div class="item1"><img class="intro-img" src="@/assets/img/kuppel.webp" alt="" /></div>
+            <div class="item2"><img class="intro-img" src="@/assets/img/vesuv.webp" alt="" /></div>
             <div class="item3"><img class="intro-img" src="@/assets/img/skeeta.webp" alt="" /></div>
             <div class="item4"><img class="intro-img" src="@/assets/img/selfie.webp" alt="" /></div>
+            <!-- <div class="item5"><img class="intro-img" src="@/assets/img/vittorio2.jpg" alt="" /></div>
+            <div class="item6"><img class="intro-img" src="@/assets/img/vittorio.jpg" alt="" /></div> -->
           </div>
         </div>
       </div>
@@ -234,27 +236,36 @@ export default defineComponent({
 }
 
 .item1 {
-  grid-area: header;
+  grid-area: one;
 }
 
 .item2 {
-  grid-area: menu;
+  grid-area: two;
 }
 
 .item3 {
-  grid-area: main;
+  grid-area: three;
 }
 
 .item4 {
-  grid-area: right;
+  grid-area: four;
+}
+
+.item5 {
+  grid-area: five;
+}
+
+.item6 {
+  grid-area: six;
 }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header menu menu'
-    'header main main'
-    'right main main';
+    'one one two two two two'
+    'one one three three three three'
+    'four four three three three three'
+    'five five five six six six';
   gap: 10px;
 }
 
