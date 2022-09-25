@@ -39,7 +39,7 @@
         </div>
         <div class="row d-flex justify-content-center">
           <div class="col-10 col-lg-6 pe-lg-4 pb-5 pb-lg-5">
-            <img class="intro-img" src="@/assets/img/skeeta.webp" alt="" />
+            <img class="intro-img" src="@/assets/img/vittorio2quadrat.webp" alt="" />
           </div>
           <div class="col-10 col-lg-6 ps-lg-4">
             <p class="intro-description">
@@ -71,8 +71,8 @@
             <div class="item2"><img class="intro-img" src="@/assets/img/vesuv.webp" alt="" /></div>
             <div class="item3"><img class="intro-img" src="@/assets/img/skeeta.webp" alt="" /></div>
             <div class="item4"><img class="intro-img" src="@/assets/img/selfie.webp" alt="" /></div>
-            <!-- <div class="item5"><img class="intro-img" src="@/assets/img/vittorio2.jpg" alt="" /></div>
-            <div class="item6"><img class="intro-img" src="@/assets/img/vittorio.jpg" alt="" /></div> -->
+            <div class="item5"><img class="intro-img" src="@/assets/img/vittorio2.jpg" alt="" /></div>
+            <div class="item6"><img class="intro-img" src="@/assets/img/vittorio.jpg" alt="" /></div>
           </div>
         </div>
       </div>
