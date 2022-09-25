@@ -71,8 +71,8 @@
             <div class="item2"><img class="intro-img" src="@/assets/img/vesuv.webp" alt="" /></div>
             <div class="item3"><img class="intro-img" src="@/assets/img/skeeta.webp" alt="" /></div>
             <div class="item4"><img class="intro-img" src="@/assets/img/selfie.webp" alt="" /></div>
-            <div class="item5"><img class="intro-img" src="@/assets/img/vittorio2.jpg" alt="" /></div>
-            <div class="item6"><img class="intro-img" src="@/assets/img/vittorio.jpg" alt="" /></div>
+            <!-- <div class="item5"><img class="intro-img" src="@/assets/img/vittorio2.jpg" alt="" /></div>
+            <div class="item6"><img class="intro-img" src="@/assets/img/vittorio.jpg" alt="" /></div> -->
           </div>
         </div>
       </div>
