@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="col-8 col-md-6">
-            <img class="p-4 first-img" src="@/assets/img/daniel.webp" alt="Icon of ReflexTest" />
+            <img class="p-4 first-img" src="@/assets/img/schulfoto.webp" alt="Icon of ReflexTest" />
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
         </div>
         <div class="row d-flex justify-content-center">
           <div class="col-10 col-lg-6 pe-lg-4 pb-5 pb-lg-5">
-            <img class="intro-img" src="@/assets/img/vittorio2quadrat.webp" alt="" />
+            <img class="intro-img" src="@/assets/img/daniel.webp" alt="" />
           </div>
           <div class="col-10 col-lg-6 ps-lg-4">
             <p class="intro-description">
