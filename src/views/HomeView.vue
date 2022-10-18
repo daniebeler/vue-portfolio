@@ -17,6 +17,10 @@
                   1500,
                   'Metalhead🤘',
                   1500,
+                  'Austrian🇦🇹',
+                  1500,
+                  'Civil Servant',
+                  1500,
                   'Game Dev🎮',
                   1500,
                 ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
@@ -47,11 +51,7 @@
               development.
             </p>
             <p class="intro-description">
-              I'm born in 2003 in Austria. I love programming all kind of stuff.
-              At the moment I am attending fifth grade of HTL Dornbirn. I love
-              all kinds of programming and I also like online challenges like
-              TryHackMe or HackerRank. Especially OSINT challenges are a lot of
-              fun...
+              Under Construction 🚧
             </p>
           </div>
         </div>
