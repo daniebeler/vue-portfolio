@@ -170,7 +170,7 @@
           <GameImage image="day-in-percent.webp" name="Day in Percent" color="#212121" date="2022"
             url="https://day-in-percent.daniebeler.com/" />
 
-          <GameImage image="bob.webp" name="Buckets of Bookmarks" color="#ffb24b" date="2022"
+          <GameImage image="bob.svg" name="Buckets of Bookmarks" color="#ffd52c" date="2022"
             url="https://buckets-of-bookmarks.daniebeler.com" />
 
             <GameImage image="travellers-friend.webp" name="Traveller's Friend" color="#f24713" date="2022"
