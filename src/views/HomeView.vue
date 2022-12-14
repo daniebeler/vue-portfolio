@@ -3,32 +3,43 @@
     <section class="page_1 d-flex justify-content-center">
       <div class="container">
         <div class="row justify-content-center" style="flex-wrap: wrap-reverse">
-          <div class="col-12 col-md-6 justify-content-center align-items-center d-flex flex-column">
+          <div
+            class="col-12 col-md-6 justify-content-center align-items-center d-flex flex-column"
+          >
             <div>
               <h1 class="heading">
                 I'm <span style="color: var(--my_primary)">Daniel</span>
               </h1>
               <h1 class="heading">Hiebeler</h1>
               <h2>
-                <v-typical class="blink" :steps="[
-                  'Sailor⛵',
-                  1500,
-                  'Programmer💻',
-                  1500,
-                  'Metalhead🤘',
-                  1500,
-                  'Austrian🇦🇹',
-                  1500,
-                  'Civil Servant',
-                  1500,
-                  'Game Dev🎮',
-                  1500,
-                ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
+                <v-typical
+                  class="blink"
+                  :steps="[
+                    'Sailor⛵',
+                    1500,
+                    'Programmer💻',
+                    1500,
+                    'Metalhead🤘',
+                    1500,
+                    'Austrian🇦🇹',
+                    1500,
+                    'Civil Servant',
+                    1500,
+                    'Game Dev🎮',
+                    1500,
+                  ]"
+                  :loop="Infinity"
+                  :wrapper="'strong'"
+                ></v-typical>
               </h2>
             </div>
           </div>
           <div class="col-8 col-md-6">
-            <img class="p-4 first-img" src="@/assets/img/schulfoto.webp" alt="Icon of ReflexTest" />
+            <img
+              class="p-4 first-img"
+              src="@/assets/img/schulfoto.webp"
+              alt="Icon of ReflexTest"
+            />
           </div>
         </div>
       </div>
@@ -37,7 +48,10 @@
     <section class="section-intro">
       <div class="container">
         <div class="row" style="padding-bottom: 30px">
-          <div class="col justify-content-center d-flex" style="padding-bottom: 30px">
+          <div
+            class="col justify-content-center d-flex"
+            style="padding-bottom: 30px"
+          >
             <Heading text="Introduction" />
           </div>
         </div>
@@ -50,9 +64,7 @@
               Hi! I'm Daniel Hiebeler, programmer with a passion in game
               development.
             </p>
-            <p class="intro-description">
-              Under Construction 🚧
-            </p>
+            <p class="intro-description">Under Construction 🚧</p>
           </div>
         </div>
       </div>
@@ -61,24 +73,49 @@
     <section class="section-intro">
       <div class="container">
         <div class="row" style="padding-bottom: 30px">
-          <div class="col justify-content-center d-flex" style="padding-bottom: 30px">
+          <div
+            class="col justify-content-center d-flex"
+            style="padding-bottom: 30px"
+          >
             <Heading text="Some images" />
           </div>
         </div>
         <div class="row d-flex">
           <div class="col-12 grid-container">
-            <div class="item1"><img class="intro-img" src="@/assets/img/kuppel.webp" alt="" /></div>
-            <div class="item2"><img class="intro-img" src="@/assets/img/vesuv.webp" alt="" /></div>
-            <div class="item3"><img class="intro-img" src="@/assets/img/skeeta.webp" alt="" /></div>
-            <div class="item4"><img class="intro-img" src="@/assets/img/selfie.webp" alt="" /></div>
-            <div class="item5"><img class="intro-img" src="@/assets/img/sailing420.webp" alt="" /></div>
-            <div class="item6"><img class="intro-img" src="@/assets/img/sailing29er.webp" alt="" /></div>
+            <div class="item1">
+              <img class="intro-img" src="@/assets/img/kuppel.webp" alt="" />
+            </div>
+            <div class="item2">
+              <img class="intro-img" src="@/assets/img/vesuv.webp" alt="" />
+            </div>
+            <div class="item3">
+              <img class="intro-img" src="@/assets/img/skeeta.webp" alt="" />
+            </div>
+            <div class="item4">
+              <img class="intro-img" src="@/assets/img/selfie.webp" alt="" />
+            </div>
+            <div class="item5">
+              <img
+                class="intro-img"
+                src="@/assets/img/sailing420.webp"
+                alt=""
+              />
+            </div>
+            <div class="item6">
+              <img
+                class="intro-img"
+                src="@/assets/img/sailing29er.webp"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="page_footer d-flex align-items-center justify-content-center">
+    <section
+      class="page_footer d-flex align-items-center justify-content-center"
+    >
       <div class="container">
         <div class="row d-flex">
           <div class="col d-flex flex-column pb-4">
@@ -87,15 +124,32 @@
         </div>
         <div class="row">
           <div class="col d-flex justify-content-center">
-            <img class="socialmedia" src="@/assets/img/instagram.webp" alt="" @click="openUrl('https://instagram.com/daniebeler')" />
-            <img class="socialmedia" src="@/assets/img/github.webp" alt="" @click="openUrl('https://github.com/daniebeler')" />
-            <img class="socialmedia" src="@/assets/img/email.webp" alt="" @click="openEmail()" />
+            <img
+              class="socialmedia"
+              src="@/assets/img/instagram.webp"
+              alt=""
+              @click="openUrl('https://instagram.com/daniebeler')"
+            />
+            <img
+              class="socialmedia"
+              src="@/assets/img/github.webp"
+              alt=""
+              @click="openUrl('https://github.com/daniebeler')"
+            />
+            <img
+              class="socialmedia"
+              src="@/assets/img/email.webp"
+              alt=""
+              @click="openEmail()"
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="page_case_studies d-flex align-items-center justify-content-center">
+    <section
+      class="page_case_studies d-flex align-items-center justify-content-center"
+    >
       <div class="container">
         <div class="row d-flex">
           <div class="col d-flex flex-column pb-5">
@@ -104,13 +158,23 @@
         </div>
         <div class="row pb-5">
           <div class="col d-flex justify-content-center">
-            <img class="case-study" src="@/assets/img/dine-case-study.webp" alt="" @click="openUrl('https://dine-app.at')" />
+            <img
+              class="case-study"
+              src="@/assets/img/dine-case-study.webp"
+              alt=""
+              @click="openUrl('https://dine-app.at')"
+            />
           </div>
         </div>
 
         <div class="row pb-5">
           <div class="col d-flex justify-content-center">
-            <img class="case-study" src="@/assets/img/io-case-study.webp" alt="" @click="openUrl('https://ideaoverflow.xyz')" />
+            <img
+              class="case-study"
+              src="@/assets/img/io-case-study.webp"
+              alt=""
+              @click="openUrl('https://ideaoverflow.xyz')"
+            />
           </div>
         </div>
       </div>
@@ -125,56 +189,149 @@
         </div>
 
         <div class="row">
-          <GameImage image="reflextest.webp" name="Reflextest" color="#0dbc3e" date="2018"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.reflextest" />
+          <GameImage
+            image="reflextest.webp"
+            name="Reflextest"
+            color="#0dbc3e"
+            date="2018"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.reflextest"
+          />
 
-          <GameImage image="speed-clicker.webp" name="Speed Clicker" color="#2ca6e9" date="2018"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.speed_clicker" />
+          <GameImage
+            image="speed-clicker.webp"
+            name="Speed Clicker"
+            color="#2ca6e9"
+            date="2018"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.speed_clicker"
+          />
 
-          <GameImage image="21.webp" name="Twentyone" color="#5e35b1" date="2019"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.twentyone" />
+          <GameImage
+            image="21.webp"
+            name="Twentyone"
+            color="#5e35b1"
+            date="2019"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.twentyone"
+          />
 
-          <GameImage image="mine-boy.webp" name="MineBoy" color="#653814" date="2019"
-            url="https://daniebeler.itch.io/mineboy" />
+          <GameImage
+            image="mine-boy.webp"
+            name="MineBoy"
+            color="#653814"
+            date="2019"
+            url="https://daniebeler.itch.io/mineboy"
+          />
 
-          <GameImage image="toggle-together.webp" name="Toggle Together" color="#2279ff" date="2019"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.toggletogether" />
+          <GameImage
+            image="toggle-together.webp"
+            name="Toggle Together"
+            color="#2279ff"
+            date="2019"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.toggletogether"
+          />
 
-          <GameImage image="justwatchad.webp" name="Just Watch Ad" color="#ffb602" date="2020"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.justwatchad" />
+          <GameImage
+            image="justwatchad.webp"
+            name="Just Watch Ad"
+            color="#ffb602"
+            date="2020"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.justwatchad"
+          />
 
-          <GameImage image="parkingjam.webp" name="Parking Jam" color="#ed8923" date="2020"
-            url="https://daniebeler.itch.io/parking-jam" />
+          <GameImage
+            image="parkingjam.webp"
+            name="Parking Jam"
+            color="#ed8923"
+            date="2020"
+            url="https://daniebeler.itch.io/parking-jam"
+          />
 
-          <GameImage image="wrongway.webp" name="Wrong Way" color="#32aa50" date="2020"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.wrongway" />
+          <GameImage
+            image="wrongway.webp"
+            name="Wrong Way"
+            color="#32aa50"
+            date="2020"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.wrongway"
+          />
 
-          <GameImage image="balance.webp" name="Balance - The Game" color="#ffc656" date="2020"
-            url="https://daniebeler.itch.io/balance" />
+          <GameImage
+            image="balance.webp"
+            name="Balance - The Game"
+            color="#ffc656"
+            date="2020"
+            url="https://daniebeler.itch.io/balance"
+          />
 
-            <GameImage image="dailytasks.webp" name="Daily Tasks" color="#212121" date="2020"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks" />
+          <GameImage
+            image="dailytasks.webp"
+            name="Daily Tasks"
+            color="#212121"
+            date="2020"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks"
+          />
 
-          <GameImage image="pong.webp" name="1D Pong" color="#ef6060" date="2021"
-            url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong" />
+          <GameImage
+            image="pong.webp"
+            name="1D Pong"
+            color="#ef6060"
+            date="2021"
+            url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong"
+          />
 
-          <GameImage image="rocket.webp" name="Risky Rocket" color="#31c381" date="2021"
-            url="https://daniebeler.itch.io/risky-rocket" />
+          <GameImage
+            image="rocket.webp"
+            name="Risky Rocket"
+            color="#31c381"
+            date="2021"
+            url="https://daniebeler.itch.io/risky-rocket"
+          />
 
-          <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e" date="2022"
-            url="https://ideaoverflow.xyz" />
+          <GameImage
+            image="idea-overflow.svg"
+            name="Idea Overflow"
+            color="#0cc87e"
+            date="2022"
+            url="https://ideaoverflow.xyz"
+          />
 
-          <GameImage image="dine.webp" name="dine." color="#dfcfb0" date="2020 - 2022"
-            url="https://dine-app.at" />
+          <GameImage
+            image="dine.webp"
+            name="dine."
+            color="#3e3d44"
+            date="2020 - 2022"
+            url="https://dine-app.at"
+          />
 
-          <GameImage image="day-in-percent.webp" name="Day in Percent" color="#212121" date="2022"
-            url="https://day-in-percent.daniebeler.com/" />
+          <GameImage
+            image="day-in-percent.webp"
+            name="Day in Percent"
+            color="#212121"
+            date="2022"
+            url="https://day-in-percent.daniebeler.com/"
+          />
 
-          <GameImage image="bob.svg" name="Buckets of Bookmarks" color="#ffd52c" date="2022"
-            url="https://buckets-of-bookmarks.daniebeler.com" />
+          <GameImage
+            image="bob.svg"
+            name="Buckets of Bookmarks"
+            color="#ffd52c"
+            date="2022"
+            url="https://buckets-of-bookmarks.daniebeler.com"
+          />
 
-            <GameImage image="travellers-friend.webp" name="Traveller's Friend" color="#f24713" date="2022"
-            url="https://travellers-friend.netlify.app/" />
+          <GameImage
+            image="travellers-friend.webp"
+            name="Traveller's Friend"
+            color="#f24713"
+            date="2022"
+            url="https://travellers-friend.netlify.app/"
+          />
+
+          <GameImage
+            image="kommiuniti.svg"
+            name="Kommiuniti"
+            color="#2e3039ff"
+            date="2022"
+            url="https://kommiuniti.netlify.app/"
+          />
         </div>
       </div>
     </section>
@@ -182,10 +339,13 @@
     <section class="holder section-contact">
       <div class="container h-100">
         <div class="row h-100">
-          <div class="col flex-column d-flex justify-content-center text-center">
+          <div
+            class="col flex-column d-flex justify-content-center text-center"
+          >
             <Heading text="Get in touch" />
             <h1 class="email">
-              hiebeler.daniel<span style="color: var(--my_primary)">@</span>gmail.com
+              hiebeler.daniel<span style="color: var(--my_primary)">@</span
+              >gmail.com
             </h1>
           </div>
         </div>
@@ -209,7 +369,7 @@ export default defineComponent({
   },
   methods: {
     openEmail() {
-      window.open('mailto:hiebeler.daniel@gmail.com')
+      window.open("mailto:hiebeler.daniel@gmail.com");
     },
     openUrl(url: string) {
       window.open(url, "_blank");
@@ -262,10 +422,10 @@ export default defineComponent({
 .grid-container {
   display: grid;
   grid-template-areas:
-    'one one two two two two'
-    'one one three three three three'
-    'four four three three three three'
-    'five five five six six six';
+    "one one two two two two"
+    "one one three three three three"
+    "four four three three three three"
+    "five five five six six six";
   gap: 10px;
 }
 
@@ -308,7 +468,7 @@ export default defineComponent({
   padding-top: 130px;
 }
 
-.case-study{
+.case-study {
   width: 100%;
   border-radius: 10px;
 }
