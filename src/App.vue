@@ -60,5 +60,4 @@ h1 {
   src: url("@/assets/fonts/Poppins-Regular.ttf") format("truetype");
   font-display: swap;
 }
-
 </style>
