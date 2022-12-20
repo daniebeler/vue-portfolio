@@ -97,11 +97,13 @@
         </div>
         <div class="row">
           <div class="col d-flex justify-content-center">
-            <img class="socialmedia" src="@/assets/img/instagram.webp" alt=""
+            <img class="socialmedia" src="@/assets/img/circle_button_instagram.svg" alt=""
               @click="openUrl('https://instagram.com/daniebeler')" />
-            <img class="socialmedia" src="@/assets/img/github.webp" alt=""
+            <img class="socialmedia" src="@/assets/img/circle_button_github.svg" alt=""
               @click="openUrl('https://github.com/daniebeler')" />
-            <img class="socialmedia" src="@/assets/img/email.webp" alt="" @click="openEmail()" />
+            <img class="socialmedia" src="@/assets/img/circle_button_mastodon.svg" alt=""
+              @click="openUrl('https://techhub.social/@daniebeler')" />
+            <img class="socialmedia" src="@/assets/img/circle_button_email.svg" alt="" @click="openEmail()" />
           </div>
         </div>
       </div>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="165.15381mm"
+   height="165.15381mm"
+   viewBox="0 0 165.15381 165.15381"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="circle_button_email.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="331.75999"
+     inkscape:cy="298.19368"
+     inkscape:window-width="1920"
+     inkscape:window-height="947"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <style
+       id="style936">.cls-1{fill:#fff;}</style>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.899879,-75.385529)">
+    <circle
+       style="fill:#1c1d20;stroke-width:0.491001;fill-opacity:1"
+       id="path961"
+       cx="100.47678"
+       cy="157.96243"
+       r="82.576904" />
+    <g
+       id="g1631"
+       transform="matrix(0.20465335,0,0,0.20465335,47.205122,106.82132)"
+       style="stroke:#ecb847;stroke-opacity:1">
+      <rect
+         x="48"
+         y="96"
+         width="416"
+         height="320"
+         rx="40"
+         ry="40"
+         fill="none"
+         stroke="currentColor"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="32"
+         id="rect1619"
+         style="stroke:#ecb847;stroke-opacity:1" />
+      <path
+         fill="none"
+         stroke="currentColor"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="32"
+         d="M 112,160 256,272 400,160"
+         id="path1621"
+         style="stroke:#ecb847;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
