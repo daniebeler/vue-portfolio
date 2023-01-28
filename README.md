@@ -1,4 +1,4 @@
-![](https://github.com/daniebeler/vue-portfolio/blob/18d01f008a3120c37e07f3ffcbb0cba2d75590c7/src/assets/img/screenshot_readme.png)
+![Screenshot of my website](https://github.com/daniebeler/vue-portfolio/blob/6d3ba805304789662a8c91aba19625cf9ab7a72b/src/assets/img/screenshot_readme.png)
 
 My personal website shows some information about myself. There you can some of my social media-profiles and many of my projects. The website is developed with [Vue.js](https://vuejs.org) and hosted on [Netlify](https://www.netlify.com).
 
