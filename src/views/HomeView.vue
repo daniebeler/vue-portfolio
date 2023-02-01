@@ -101,8 +101,9 @@
               @click="openUrl('https://instagram.com/daniebeler')" />
             <img class="socialmedia" src="@/assets/img/circle_button_github.svg" alt=""
               @click="openUrl('https://github.com/daniebeler')" />
-            <img class="socialmedia" src="@/assets/img/circle_button_mastodon.svg" alt=""
-              @click="openUrl('https://techhub.social/@daniebeler')" />
+            <a href="https://techhub.social/@daniebeler" target="_blank" rel="me noopener noreferrer">
+              <img class="socialmedia" src="@/assets/img/circle_button_mastodon.svg" alt="" />
+            </a>
             <img class="socialmedia" src="@/assets/img/circle_button_email.svg" alt="" @click="openEmail()" />
           </div>
         </div>
