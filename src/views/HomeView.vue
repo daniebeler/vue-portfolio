@@ -21,6 +21,8 @@
                   1500,
                   'Civil Servant',
                   1500,
+                  'Adventurer🏞️',
+                  1500,
                   'Game Dev🎮',
                   1500,
                 ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
