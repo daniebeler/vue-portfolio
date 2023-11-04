@@ -2,15 +2,7 @@
   <div class="wrapper">
     <Hero />
 
-    <Intro />
 
-    <ImageGallery />
-
-    <Socials />
-
-    <CaseStudies />
-
-    <Projects />
 
     <Contact />
   </div>
@@ -18,7 +10,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Contact from "@/components/Contact.vue";
+import Contact from "../components/Contact.vue";
 import Hero from "@/components/Hero.vue";
 import Intro from "@/components/Intro.vue";
 import ImageGallery from "@/components/ImageGallery.vue";
