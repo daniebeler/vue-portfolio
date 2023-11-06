@@ -1,23 +1,28 @@
 <template>
-  <section class="section-intro">
-    <div class="container">
-      <div class="row" style="padding-bottom: 30px">
-        <div class="col justify-content-center d-flex" style="padding-bottom: 30px">
-          <Heading text="Introduction" />
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-10 col-lg-6 pe-lg-4 pb-5 pb-lg-5">
-          <img class="intro-img" src="@/assets/img/daniel.webp" alt="" />
-        </div>
-        <div class="col-10 col-lg-6 ps-lg-4">
-          <p class="intro-description">
-            Hi! I'm Daniel Hiebeler, programmer with a passion in game
-            development.
-          </p>
-          <p class="intro-description">Under Construction 🚧</p>
-        </div>
-      </div>
+  <section class="section-intro rounded-3xl bg-[#ecb847] pt-10 pl-5 pb-10">
+    <div>
+      <h1 class="heading">
+        I'm <span style="color: var(--my_primary)">Daniel</span>
+      </h1>
+      <h1 class="heading">Hiebeler</h1>
+      <h2>
+        <v-typical class="blink" :steps="[
+          'Sailor⛵',
+          1500,
+          'Programmer💻',
+          1500,
+          'Metalhead🤘',
+          1500,
+          'Austrian🇦🇹',
+          1500,
+          'Civil Servant',
+          1500,
+          'Adventurer🏞️',
+          1500,
+          'Game Dev🎮',
+          1500,
+        ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
+      </h2>
     </div>
   </section>
 </template>
@@ -25,27 +30,12 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import Heading from "./Heading.vue";
+import VTypical from "vue-typical";
 
 export default defineComponent({
   name: "Intro",
-  components: { Heading }
+  components: { Heading, VTypical }
 },
 )
 </script>
 
-<style scoped>
-.section-intro {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #ecb847;
-}
-
-.intro-img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.intro-description {
-  font-size: 1.5rem;
-}
-</style>

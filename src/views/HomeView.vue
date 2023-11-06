@@ -1,6 +1,8 @@
 <template>
   <div class="bg-zinc-900">
-    <!-- <Hero /> -->
+    <Hero />
+
+    <Projects />
 
     <CaseStudies />
 
