@@ -79,12 +79,11 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Heading from "./Heading.vue";
 import GameImage from "./GameImage.vue";
 
 export default defineComponent({
   name: "CaseStudies",
-  components: { Heading, GameImage },
+  components: { GameImage },
   methods: {
     openUrl(url: string) {
       window.open(url, "_blank");
