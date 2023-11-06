@@ -9,23 +9,23 @@
         <div class="grid grid-cols-2 gap-4">
 
           <div>
-            <img class="rounded-3xl h-full" src="/img/schulfoto.webp" alt="Icon" />
+            <img class="rounded-3xl h-full aspect-square" src="/img/schulfoto.webp" alt="Icon" />
           </div>
 
           <div class="grid grid-cols-2 gap-4">
-            <div class="bg-[#2867B2] rounded-3xl flex items-center justify-center">
+            <div class="bg-[#2867B2] rounded-3xl aspect-square flex items-center justify-center">
               <img class="h-2/4" src="/img/logo-linkedin.svg" alt="Icon" />
             </div>
 
-            <div class="bg-[#6364FF] rounded-3xl flex items-center justify-center">
+            <div class="bg-[#6364FF] rounded-3xl aspect-square flex items-center justify-center">
               <img class="h-2/4" src="/img/logo-mastodon.svg" alt="Icon" />
             </div>
 
-            <div class="bg-gradient-to-tr from-[#f40000] to-[#b800b3] rounded-3xl flex items-center justify-center">
+            <div class="bg-gradient-to-tr from-[#f40000] to-[#b800b3] rounded-3xl aspect-square flex items-center justify-center">
               <img class="h-2/4" src="/img/logo-instagram.svg" alt="Icon" />
             </div>
 
-            <div class="bg-[#fff] rounded-3xl flex items-center justify-center">
+            <div class="bg-[#fff] rounded-3xl aspect-square flex items-center justify-center">
               <img class="h-2/4" src="/img/logo-github-dark.svg" alt="Icon" />
             </div>
           </div>

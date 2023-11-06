@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <img class="rounded-3xl h-full" :src="`/img/${image}`" alt="Icon" @click="openUrl()" />
+    <img class="rounded-3xl h-full aspect-square" :src="`/img/${image}`" alt="Icon" @click="openUrl()" />
   </div>
 </template>
 
