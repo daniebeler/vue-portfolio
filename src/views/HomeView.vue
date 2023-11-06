@@ -16,7 +16,6 @@ import Contact from "../components/Contact.vue";
 import Hero from "@/components/Hero.vue";
 import Intro from "@/components/Intro.vue";
 import ImageGallery from "@/components/ImageGallery.vue";
-import Socials from "@/components/Socials.vue";
 import Projects from "@/components/Projects.vue";
 import CaseStudies from "@/components/CaseStudies.vue";
 
@@ -27,7 +26,6 @@ export default defineComponent({
     Hero,
     Intro,
     ImageGallery,
-    Socials,
     Projects,
     CaseStudies
   },
