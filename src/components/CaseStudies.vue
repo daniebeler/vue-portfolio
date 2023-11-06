@@ -20,6 +20,12 @@
         </div>
       </div>
     </div>
+
+
+    <div class="h-6 w-6 bg-red-500">
+
+    </div>
+
   </section>
 </template>
 

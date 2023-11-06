@@ -2,6 +2,7 @@
   <div class="wrapper">
     <Hero />
 
+    <CaseStudies />
 
 
     <Contact />
