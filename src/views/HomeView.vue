@@ -1,11 +1,10 @@
 <template>
-  <div class="wrapper">
-    <Hero />
+  <div class="bg-zinc-900">
+    <!-- <Hero /> -->
 
     <CaseStudies />
 
-
-    <Contact />
+    <!-- <Contact /> -->
   </div>
 </template>
 
@@ -42,8 +41,4 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.wrapper {
-  transition: background-color 1s ease;
-  background-color: var(--my_dark);
-}
 </style>
