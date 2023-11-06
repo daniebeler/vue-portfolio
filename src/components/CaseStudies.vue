@@ -4,6 +4,16 @@
     <div class="container">
       <h1 class="text-3xl text-white pb-4">Projects:</h1>
 
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 pb-4">
+        <div>
+          <img class="rounded-3xl h-full" src="/img/dine-case-study.webp" alt="Icon" />
+        </div>
+
+        <div>
+          <img class="rounded-3xl h-full" src="/img/io-case-study.webp" alt="Icon" />
+        </div>
+      </div>
+
       <div class="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8 gap-4">
 
         <GameImage image="blacklemon.svg" name="Black Lemon" color="#212121" date="2023"
@@ -64,32 +74,6 @@
 
       </div>
     </div>
-
-
-    <!-- <div class="container">
-      <div class="row d-flex">
-        <div class="col d-flex flex-column pb-5">
-          <Heading text="Best Projects" />
-        </div>
-      </div>
-      <div class="row pb-5">
-        <div class="col d-flex justify-content-center">
-          <img class="case-study" src="@/assets/img/dine-case-study.webp" alt=""
-            @click="openUrl('https://dine-app.at')" />
-        </div>
-      </div>
-
-      <div class="row pb-5">
-        <div class="col d-flex justify-content-center">
-          <img class="case-study" src="@/assets/img/io-case-study.webp" alt=""
-            @click="openUrl('https://ideaoverflow.xyz')" />
-        </div>
-      </div>
-    </div> -->
-
-
-
-
   </section>
 </template>
 
