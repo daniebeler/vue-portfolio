@@ -4,7 +4,7 @@
     <div class="container">
       <h1 class="text-3xl text-white pb-4">Projects:</h1>
 
-      <div class="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4">
+      <div class="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8 gap-4">
 
         <GameImage image="blacklemon.svg" name="Black Lemon" color="#212121" date="2023"
           url="https://blacklemon.design" />
