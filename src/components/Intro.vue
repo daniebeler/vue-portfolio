@@ -29,12 +29,11 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Heading from "./Heading.vue";
 import VTypical from "vue-typical";
 
 export default defineComponent({
   name: "Intro",
-  components: { Heading, VTypical }
+  components: { VTypical }
 },
 )
 </script>

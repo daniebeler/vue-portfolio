@@ -2,7 +2,7 @@
   <section class="p-5 flex items-center flex-col">
 
     <div class="container">
-      <h1 class="text-3xl text-white pb-4">Projects:</h1>
+      <h1 class="text-3xl text-white pb-4">Projects</h1>
 
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 pb-4">
         <div>
