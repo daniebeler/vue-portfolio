@@ -16,7 +16,10 @@
 
       <div class="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8 gap-4">
 
-        <GameImage image="blacklemon.svg" name="Black Lemon" color="#212121" date="2023"
+        <GameImage image="wall-of-inspiration.svg" name="Wall of Inspiration" color="#212121" date="2023"
+          url="https://wallofinspiration.netlify.app" />
+
+          <GameImage image="blacklemon.svg" name="Black Lemon" color="#212121" date="2023"
           url="https://blacklemon.design" />
 
         <GameImage image="kommiuniti.svg" name="Kommiuniti" color="#2e3039ff" date="2022"
