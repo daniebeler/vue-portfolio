@@ -18,7 +18,7 @@
               <img class="h-2/4" src="/img/logo-linkedin.svg" alt="Icon" />
             </a>
 
-            <a href="https://techhub.social/@daniebeler" target="_blank" rel="noopener noreferrer"
+            <a href="https://techhub.social/@daniebeler" target="_blank" rel="me noopener noreferrer"
               class="bg-[#6364FF] rounded-3xl aspect-square flex items-center justify-center">
               <img class="h-2/4" src="/img/logo-mastodon.svg" alt="Icon" />
             </a>
