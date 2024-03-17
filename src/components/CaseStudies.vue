@@ -16,7 +16,10 @@
 
       <div class="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8 gap-4">
 
-        <GameImage image="wall-of-inspiration.svg" name="Wall of Inspiration" color="#212121" date="2023"
+        <GameImage image="pixelix.webp" name="Pixelix" color="#212121" date="2024"
+          url="https://play.google.com/store/apps/details?id=com.daniebeler.pfpixelix" />
+
+          <GameImage image="wall-of-inspiration.svg" name="Wall of Inspiration" color="#212121" date="2023"
           url="https://wallofinspiration.netlify.app" />
 
           <GameImage image="blacklemon.svg" name="Black Lemon" color="#212121" date="2023"
