@@ -9,7 +9,7 @@
         <div class="grid grid-cols-2 gap-4">
 
           <div>
-            <img class="rounded-3xl h-full aspect-square" src="/img/schulfoto.webp" alt="Icon" />
+            <img class="rounded-3xl h-full aspect-square" src="/img/profilbild.webp" alt="Icon" />
           </div>
 
           <div class="grid grid-cols-2 gap-4">
