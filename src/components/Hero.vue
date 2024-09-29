@@ -14,22 +14,22 @@
 
           <div class="grid grid-cols-2 gap-4">
             <a href="https://linkedin.com/in/daniel-hiebeler-146046172" target="_blank" rel="noopener noreferrer"
-              class="bg-[#2867B2] rounded-3xl aspect-square flex items-center justify-center">
+              class="bg-[#2867B2] rounded-3xl aspect-square flex items-center justify-center transition-transform duration-200 hover:scale-105">
               <img class="h-2/4" src="/img/logo-linkedin.svg" alt="Icon" />
             </a>
 
             <a href="https://techhub.social/@daniebeler" target="_blank" rel="me noopener noreferrer"
-              class="bg-[#6364FF] rounded-3xl aspect-square flex items-center justify-center">
+              class="bg-[#6364FF] rounded-3xl aspect-square flex items-center justify-center transition-transform duration-200 hover:scale-105">
               <img class="h-2/4" src="/img/logo-mastodon.svg" alt="Icon" />
             </a>
 
             <a href="https://www.instagram.com/daniebeler/" target="_blank" rel="noopener noreferrer"
-              class="bg-gradient-to-tr from-[#f40000] to-[#b800b3] rounded-3xl aspect-square flex items-center justify-center">
+              class="bg-gradient-to-tr from-[#f40000] to-[#b800b3] rounded-3xl aspect-square flex items-center justify-center transition-transform duration-200 hover:scale-105">
               <img class="h-2/4" src="/img/logo-instagram.svg" alt="Icon" />
             </a>
 
             <a href="https://www.github.com/daniebeler/" target="_blank" rel="noopener noreferrer"
-              class="bg-[#fff] rounded-3xl aspect-square flex items-center justify-center">
+              class="bg-[#fff] rounded-3xl aspect-square flex items-center justify-center transition-transform duration-200 hover:scale-105">
               <img class="h-2/4" src="/img/logo-github-dark.svg" alt="Icon" />
             </a>
           </div>
