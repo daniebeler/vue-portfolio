@@ -8,7 +8,7 @@
 
         <div class="grid grid-cols-2 gap-4">
 
-          <div>
+          <div class="aspect-square">
             <img class="rounded-2xl lg:rounded-3xl h-full aspect-square" src="/img/profilbild.webp" alt="Icon" />
           </div>
 
