@@ -24,7 +24,7 @@
             </a>
 
             <a href="https://www.instagram.com/daniebeler/" target="_blank" rel="noopener noreferrer"
-              class="bg-gradient-to-tr from-[#f40000] to-[#b800b3] rounded-3xl aspect-square flex items-center justify-center transition-transform duration-200 hover:scale-105">
+              class="bg-linear-to-tr from-[#f40000] to-[#b800b3] rounded-3xl aspect-square flex items-center justify-center transition-transform duration-200 hover:scale-105">
               <img class="h-2/4" src="/img/logo-instagram.svg" alt="Icon" />
             </a>
 
