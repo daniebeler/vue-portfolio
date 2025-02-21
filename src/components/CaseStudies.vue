@@ -6,11 +6,11 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 pb-4">
         <div>
-          <img class="rounded-3xl w-full aspect-16/9" src="/img/dine-case-study.webp" alt="Icon" />
+          <img class="rounded-2xl lg:rounded-3xl w-full aspect-16/9" src="/img/dine-case-study.webp" alt="Icon" />
         </div>
 
         <div>
-          <img class="rounded-3xl w-full aspect-16/9" src="/img/io-case-study.webp" alt="Icon" />
+          <img class="rounded-2xl lg:rounded-3xl w-full aspect-16/9" src="/img/io-case-study.webp" alt="Icon" />
         </div>
       </div>
 
