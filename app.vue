@@ -10,7 +10,7 @@ useSchemaOrg([
     url: 'https://daniebeler.com',
     sameAs: [
       'https://www.instagram.com/daniebeler/',
-      'https://at.linkedin.com/in/danielhiebeler',
+      'https://www.linkedin.com/in/danielhiebeler',
       'https://github.com/daniebeler',
       'https://daniebeler.bio.link/',
       'https://play.google.com/store/apps/dev?id=4896585242816990690',

@@ -13,7 +13,7 @@
           </div>
 
           <div class="grid grid-cols-2 gap-4">
-            <a href="https://linkedin.com/in/daniel-hiebeler-146046172" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/danielhiebeler" target="_blank" rel="noopener noreferrer"
               class="bg-[#2867B2] rounded-2xl lg:rounded-3xl aspect-square flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:cursor-pointer">
               <img class="h-2/4" src="/img/logo-linkedin.svg" alt="Icon" />
             </a>
