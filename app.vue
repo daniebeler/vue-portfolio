@@ -17,7 +17,8 @@ useSchemaOrg([
       'https://techhub.social/@daniebeler',
       'https://bento.me/daniebeler',
       'https://www.threads.net/@daniebeler',
-      'https://pixelix.social/daniebeler'
+      'https://pixelix.social/daniebeler',
+      'https://buymeacoffee.com/daniebeler'
     ]
   }),
 ]);
