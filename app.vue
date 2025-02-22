@@ -21,6 +21,18 @@ useSchemaOrg([
     ]
   }),
 ]);
+
+useSeoMeta({
+  charset: 'utf-8',
+  title: 'Daniel Hiebeler | Developer Portfolio',
+  description: 'Explore the portfolio of Daniel Hiebeler, a passionate developer showcasing projects in web development, software engineering, and more.',
+  author: 'Daniel Hiebeler',
+  ogTitle: 'Daniel Hiebeler | Developer Portfolio',
+  ogDescription: 'Explore the portfolio of Daniel Hiebeler, a passionate developer showcasing projects in web development, software engineering, and more.',
+  ogUrl: 'https://daniebeler.com',
+  ogType: 'website',
+  ogImage: 'https://daniebeler.com/img/profilbild.webp',
+})
 </script>
 
 <template>
