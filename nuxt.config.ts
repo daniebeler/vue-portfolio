@@ -6,7 +6,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   vite: { plugins: [tailwindcss(),], },
-  modules: ['@nuxt/fonts'],
+  modules: ['@nuxt/fonts', 'nuxt-schema-org'],
+  site: {
+    host: 'https://daniebeler.com',
+  },
+  schemaOrg: {
+    defaults: false
+  },
   fonts: {
     experimental: {
       processCSSVariables: true,
