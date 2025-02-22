@@ -1,26 +1,75 @@
-![Screenshot of my website](https://github.com/daniebeler/vue-portfolio/blob/6d3ba805304789662a8c91aba19625cf9ab7a72b/src/assets/img/screenshot_readme.png)
+# Nuxt Minimal Starter
 
-My personal website shows some information about myself. There you can some of my social media-profiles and many of my projects. The website is developed with [Vue.js](https://vuejs.org) and hosted on [Netlify](https://www.netlify.com).
-
-URL: [https://daniebeler.com](https://daniebeler.com)
-
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
-Clone the repository
+Make sure to install dependencies:
 
-```
-git clone https://github.com/daniebeler/vue-portfolio.git
-```
-
-Install the required packages
-
-```
+```bash
+# npm
 npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-Run the app
+## Development Server
 
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
-npm run serve
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
