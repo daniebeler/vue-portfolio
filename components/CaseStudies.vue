@@ -16,6 +16,9 @@
 
       <div class="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8 gap-4">
 
+        <GameImage image="socialfolio.png" name="Socialfolio" color="#212121" date="2025"
+          url="https://socialfolio.me" />
+
         <GameImage image="veritate.png" name="Veritate" color="#212121" date="2025" url="https://veritate.at" />
 
         <GameImage image="pixelix_logo.png" name="Pixelix" color="#212121" date="2024"
