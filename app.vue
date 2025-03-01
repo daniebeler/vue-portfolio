@@ -1,14 +1,5 @@
 <script lang="ts" setup>
 useSchemaOrg([
-  defineProfilePage({
-    mainEntity: {
-      
-    }
-    author: {
-      "@type": "Person",
-      "name": "Daniel Hiebeler"
-    }
-  }),
   definePerson({
     name: 'Daniel Hiebeler',
     alternateName: 'daniebeler',
