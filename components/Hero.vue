@@ -26,7 +26,7 @@
           ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
         </p> -->
         <p class="text-lg text-zinc-300 max-w-xl mt-4">
-          I'm passionate about creating meaningful digital experiences, blending clean design with functionality.
+          I'm passionate about creating meaningful digital experiences and blending clean design with functionality.
           Currently, I'm studying Informatics at TU Wien to further refine my skills.</p>
         <div class="flex gap-4">
           <a href="/#projects"
