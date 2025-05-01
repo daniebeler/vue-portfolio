@@ -50,19 +50,18 @@
             </div>
 
             <div class="flex flex-col justify-center flex-grow">
-              <h2 class="text-3xl md:text-4xl font-bold mb-3">
-                <span class="bg-gradient-to-r from-[#9d4edd] to-[#4cc9f0] bg-clip-text text-transparent">
-                  Turning Ideas
+              <p class="font-bold tracking-tighter text-3xl lg:text-2xl xl:text-4xl mb-3">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-white to-cyan-300">
+                  Turning Ideas Into <span class="hidden lg:inline-block xl:hidden">Digital Reality</span>
                 </span>
-                <span class="text-white">Into</span>
                 <br />
-                <span class="bg-gradient-to-r from-[#4cc9f0] to-[#4d5bce] bg-clip-text text-transparent">
+                <span class="bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-cyan-400 lg:hidden xl:inline-block">
                   Digital Reality
                 </span>
-              </h2>
-              <p class="text-gray-300 mb-4 max-w-lg">
-                I'm the co-founder of Ghostbyte, a studio I started to bring ideas to life through custom software and
-                exceptional digital experiences.
+              </p>
+              <p class="text-gray-300 mb-4 max-w-lg lg:text-sm xl:text-md">
+                I'm the co-founder of Ghostbyte, a software development studio I started with my brother to bring ideas
+                to life through custom software and exceptional digital experiences.
               </p>
               <div class="flex">
                 <a href="https://ghostbyte.dev" target="_blank" rel="noopener noreferrer"
