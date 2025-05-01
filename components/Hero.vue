@@ -31,18 +31,8 @@
         <div class="flex gap-4">
           <a href="/#projects" class="bg-yellow-500 hover:bg-yellow-600 px-4 py-2 rounded-lg text-black">
             View Projects
-            <ArrowRight class="ml-2 h-4 w-4" />
           </a>
           <a href="mailto:hiebeler.daniel@gmail.com" class="px-4 py-2 border-zinc-600 border rounded-lg">Contact Me</a>
-        </div>
-      </div>
-      <div class="relative aspect-square max-w-md mx-auto md:ml-auto">
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-purple-500/20 rounded-2xl -z-10 blur-xl">
-        </div>
-        <div class="h-full w-full rounded-2xl overflow-hidden border border-zinc-800">
-          <Image src="/placeholder.svg" alt="Daniel Hiebeler" width={400} height={400}
-            class="h-full w-full object-cover" />
         </div>
       </div>
     </div>

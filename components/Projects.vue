@@ -3,7 +3,7 @@
 
     <div class="container">
       <h2 class="text-3xl font-bold pb-12 flex items-center">
-        <span class="text-yellow-500 mr-2">02.</span>&nbsp;Projects
+        <span class="text-yellow-500 mr-2">02.</span>Projects
         <div class="h-px bg-zinc-600 flex-grow ml-4"></div>
       </h2>
 
