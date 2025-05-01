@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxt/fonts": "^0.11.2",
     "@tailwindcss/vite": "^4.1.5",
+    "lucide-vue-next": "^0.503.0",
     "nuxt": "^3.17.1",
     "nuxt-schema-org": "^5.0.5",
     "tailwindcss": "^4.1.5",

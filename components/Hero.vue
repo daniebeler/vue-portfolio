@@ -5,7 +5,7 @@
         <h1 class="text-4xl md:text-6xl font-bold tracking-tight">
           Hi, I'm <span class="text-yellow-500">Daniel Hiebeler</span>
         </h1>
-        <h2 class="text-2xl md:text-3xl h-10 text-zinc-400">
+        <p class="text-2xl md:text-3xl h-10 text-zinc-400">
           <v-typical :steps="[
             'Sailor⛵',
             1500,
@@ -24,13 +24,14 @@
             'Game Dev🎮',
             1500,
           ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
-        </h2>
-        <p class="text-lg text-zinc-300 max-w-md">
+        </p>
+        <p class="text-lg text-zinc-300 max-w-md mt-4">
           I build exceptional digital experiences with a focus on clean design and robust functionality.
         </p>
         <div class="flex gap-4">
-          <a href="/#projects" class="bg-yellow-500 hover:bg-yellow-600 px-4 py-2 rounded-lg text-black">
+          <a href="/#projects" class="bg-yellow-500 hover:bg-yellow-600 flex items-center px-4 py-2 rounded-lg text-black">
             View Projects
+            <ArrowRight class="ml-2 h-5 w-5" />
           </a>
           <a href="mailto:hiebeler.daniel@gmail.com" class="px-4 py-2 border-zinc-600 border rounded-lg">Contact Me</a>
         </div>
@@ -42,10 +43,11 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import VTypical from "vue-typical";
+import { ArrowRight } from 'lucide-vue-next'
 
 export default defineComponent({
   name: "Hero",
-  components: { VTypical }
+  components: { VTypical, ArrowRight }
 },
 )
 </script>

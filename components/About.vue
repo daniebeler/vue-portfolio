@@ -7,7 +7,7 @@
         <div class="h-px bg-zinc-600 flex-grow ml-4"></div>
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div class="grid grid-cols-2 gap-4">
 
           <div class="aspect-square">
@@ -37,8 +37,42 @@
           </div>
         </div>
 
-        <div class="bg-red-300">
+        <div class="relative overflow-hidden rounded-xl border border-[#2a2a4a]">
+          <div class="absolute inset-0 bg-gradient-to-br from-[#0f0921] to-[#0a192f] z-0"></div>
 
+          <div class="absolute -bottom-20 -right-20 h-40 w-40 rounded-full bg-[#4d5bce]/20 blur-3xl z-0"></div>
+          <div class="absolute -top-20 -left-20 h-40 w-40 rounded-full bg-[#9d4edd]/10 blur-3xl z-0"></div>
+
+          <div class="relative z-10 h-full flex flex-col p-6">
+            <div class="flex items-center gap-3 mb-4">
+              <img src="/img/ghostbyte_logo_white.svg" height="42px" width="42px">
+              <h3 class="text-xl font-bold tracking-tight text-white">Ghostbyte</h3>
+            </div>
+
+            <div class="flex flex-col justify-center flex-grow">
+              <h2 class="text-3xl md:text-4xl font-bold mb-3">
+                <span class="bg-gradient-to-r from-[#9d4edd] to-[#4cc9f0] bg-clip-text text-transparent">
+                  Turning Ideas
+                </span>
+                <span class="text-white">Into</span>
+                <br />
+                <span class="bg-gradient-to-r from-[#4cc9f0] to-[#4d5bce] bg-clip-text text-transparent">
+                  Digital Reality
+                </span>
+              </h2>
+              <p class="text-gray-300 mb-4 max-w-lg">
+                I'm the co-founder of Ghostbyte, a studio I started to bring ideas to life through custom software and
+                exceptional digital experiences.
+              </p>
+              <div class="flex">
+                <a href="https://ghostbyte.dev" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#9d4edd] to-[#4cc9f0] rounded-md text-white hover:opacity-90 transition-opacity text-sm">
+                  <span>View our Work</span>
+                  <ArrowRight class="h-4 w-4" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -49,10 +83,11 @@
 import { defineComponent } from "vue";
 import Intro from "./Hero.vue";
 import GameImage from "./GameImage.vue";
+import { ArrowRight } from 'lucide-vue-next'
 
 export default defineComponent({
   name: "About",
-  components: { Intro, GameImage }
+  components: { Intro, GameImage, ArrowRight }
 },
 )
 </script>
