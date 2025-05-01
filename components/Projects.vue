@@ -1,5 +1,5 @@
 <template>
-  <section class="p-5 flex items-center flex-col">
+  <section class="p-5 flex items-center flex-col" id="projects">
 
     <div class="container">
       <h2 className="text-3xl font-bold pb-12 flex items-center">
@@ -93,7 +93,7 @@ import { defineComponent } from "vue";
 import GameImage from "./GameImage.vue";
 
 export default defineComponent({
-  name: "CaseStudies",
+  name: "Projects",
   components: { GameImage },
   methods: {
     openUrl(url: string) {

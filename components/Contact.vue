@@ -1,5 +1,5 @@
 <template>
-	<section id="contact" className="bg-zinc-900/50 py-20">
+	<section id="contact" className="py-20 px-5">
 		<div className="container mx-auto max-w-3xl text-center">
 			<h2 className="text-3xl font-bold mb-6 flex items-center justify-center">
 				<span className="text-yellow-500 mr-2">03.</span> Get In Touch

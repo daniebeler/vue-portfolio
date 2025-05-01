@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Intro />
     <Hero />
+    <About />
 
-    <CaseStudies />
+    <Projects />
 
     <Contact />
 
@@ -12,16 +12,16 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Hero from "@/components/Hero.vue";
-import Intro from "@/components/Intro.vue";
-import CaseStudies from "@/components/CaseStudies.vue";
+import About from "~/components/About.vue";
+import Hero from "~/components/Hero.vue";
+import Projects from "~/components/Projects.vue";
 
 export default defineComponent({
   name: "HomeView",
   components: {
     Hero,
-    Intro,
-    CaseStudies,
+    About,
+    Projects,
   },
   methods: {
     openEmail() {
