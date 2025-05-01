@@ -12,7 +12,7 @@
   }
   
   :root {
-    --my_dark: #1c1d20;
+    --my_dark: #18181b;
     --my_light: #fff;
     --my_primary: #dc3545;
   }
@@ -23,6 +23,7 @@
     height: 100%;
     background-color: var(--blue);
     color: white;
+    background: #18181b;
     font-family: Poppins, sans-serif;
     font-weight: 400;
   }
@@ -30,6 +31,11 @@
   h1 {
     font-family: Poppins, Avenir, Helvetica, Arial, sans-serif;
     font-weight: 700;
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
   }
   
   .bolt {

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-zinc-900">
+  <div>
 
     <section class="p-5 flex items-center flex-col">
       <div class="container">
