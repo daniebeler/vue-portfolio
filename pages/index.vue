@@ -23,14 +23,6 @@ export default defineComponent({
     About,
     Projects,
   },
-  methods: {
-    openEmail() {
-      window.open("mailto:hiebeler.daniel@gmail.com");
-    },
-    openUrl(url: string) {
-      window.open(url, "_blank");
-    },
-  },
 });
 </script>
 

@@ -2,9 +2,9 @@
   <section class="p-5 flex items-center flex-col">
     <div class="container">
 
-      <h2 className="text-3xl font-bold pb-12 flex items-center">
-        <span className="text-yellow-500 mr-2">01.</span>&nbsp;About Me
-        <div className="h-px bg-zinc-600 flex-grow ml-4"></div>
+      <h2 class="text-3xl font-bold pb-12 flex items-center">
+        <span class="text-yellow-500 mr-2">01.</span>&nbsp;About Me
+        <div class="h-px bg-zinc-600 flex-grow ml-4"></div>
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
