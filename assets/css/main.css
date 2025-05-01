@@ -1,47 +1,20 @@
 @import "tailwindcss";
 
-@theme {
-    --font-display: "Inter", "sans-serif";
-  }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: #09090b;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
 
-#app {
-    font-family: regular, Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: var(--my_dark);
-  }
-  
-  :root {
-    --my_dark: #18181b;
-    --my_light: #fff;
-    --my_primary: #dc3545;
-  }
-  
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    background-color: var(--blue);
-    color: white;
-    background: #18181b;
-    font-family: Poppins, sans-serif;
-    font-weight: 400;
-  }
-  
-  h1 {
-    font-family: Poppins, Avenir, Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-  }
+.bolt {
+  font-family: bolt, Avenir, Helvetica, Arial, sans-serif;
+}
 
-  h2 {
-    font-size: 1.6rem;
-  }
-  
-  .bolt {
-    font-family: bolt, Avenir, Helvetica, Arial, sans-serif;
-  }
-  
-  ::selection {
-    background: #ffb7b7;
-  }
+::selection {
+  background: #f0b100;
+  color: #09090b;
+}

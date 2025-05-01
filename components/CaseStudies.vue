@@ -2,11 +2,14 @@
   <section class="p-5 flex items-center flex-col">
 
     <div class="container">
-      <h1 class="text-3xl text-white pb-4">Projects</h1>
+      <h2 className="text-3xl font-bold pb-12 flex items-center">
+        <span className="text-yellow-500 mr-2">02.</span>&nbsp;Projects
+        <div className="h-px bg-zinc-600 flex-grow ml-4"></div>
+      </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 pb-4">
         <div>
-          <img class="rounded-2xl lg:rounded-3xl w-full aspect-16/9" src="/img/dine-case-study.webp" alt="Icon" />
+          <img class="rounded-2xl lg:rounded-3xl w-full aspect-16/9" src="/img/pixelix_screenshots.png" alt="Icon" />
         </div>
 
         <div>

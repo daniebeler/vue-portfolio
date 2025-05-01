@@ -1,12 +1,8 @@
 <template>
-  <section class="rounded-2xl lg:rounded-3xl bg-[#ecb847] p-10 md:p-6 lg:p-10 flex items-center">
-    <div>
-      <h1 class="text-4xl md:text-3xl lg:text-5xl flex flex-col">
-        <div class="text-zinc-800">
-          I'm <span style="color: var(--my_primary)">Daniel</span>
-        </div>
-
-        <span class="text-4xl md:text-3xl lg:text-5xl text-zinc-800">Hiebeler</span>
+  <section class="p-5 pt-20 flex items-center flex-col">
+    <div class="container">
+      <h1 class="text-4xl md:text-3xl lg:text-5xl flex font-extrabold">
+        Hi, I'm&nbsp;<span class="text-yellow-500">Daniel Hiebeler</span>
       </h1>
       <h2 class="h-10 text-xl pt-2">
         <v-typical class="blink text-zinc-800" :steps="[
@@ -28,6 +24,8 @@
           1500,
         ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
       </h2>
+
+      <p>I build exceptional digital experiences with a focus on clean design and robust functionality.</p>
     </div>
   </section>
 </template>

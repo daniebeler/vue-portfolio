@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import Footer from '~/components/Footer.vue'
+
 useSchemaOrg([
   definePerson({
     name: 'Daniel Hiebeler',
@@ -39,5 +41,6 @@ useSeoMeta({
 <template>
   <div>
     <NuxtPage />
+    <Footer />
   </div>
 </template>
