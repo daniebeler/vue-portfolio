@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   vite: { plugins: [tailwindcss()] },
-  modules: ["@nuxt/fonts", "nuxt-schema-org"],
+  modules: ["@nuxt/fonts", "nuxt-schema-org", "@nuxtjs/plausible"],
   site: {
     host: "https://daniebeler.com",
   },
@@ -52,4 +52,10 @@ export default defineNuxtConfig({
       { name: "Poppins", provider: "google", weight: 700 },
     ],
   },
+  plausible: {
+    proxy: true,
+    apiHost: "https://plausible.ghostbyte.dev",
+    autoOutboundTracking: true,
+    domain: "daniebeler.com"
+  }
 });
