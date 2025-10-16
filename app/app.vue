@@ -1,9 +1,7 @@
 <script lang="ts" setup>
-import { definePerson, useSchemaOrg } from 'nuxt-schema-org/schema';
 import { useSeoMeta } from 'nuxt/app';
 
-
-/* useSchemaOrg([
+ useSchemaOrg([
   definePerson({
     name: 'Daniel Hiebeler',
     alternateName: 'daniebeler',
@@ -25,7 +23,7 @@ import { useSeoMeta } from 'nuxt/app';
       'https://buymeacoffee.com/daniebeler'
     ]
   }),
-]); */
+]); 
 
 useSeoMeta({
   charset: 'utf-8',
