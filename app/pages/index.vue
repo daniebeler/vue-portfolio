@@ -12,9 +12,9 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import About from "~/components/About.vue";
-import Hero from "~/components/Hero.vue";
-import Projects from "~/components/Projects.vue";
+import Hero from "../components/Hero.vue";
+import Projects from "../components/Projects.vue";
+import About from "../components/About.vue";
 
 export default defineComponent({
   name: "HomeView",

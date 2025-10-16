@@ -82,7 +82,7 @@
 import { defineComponent } from "vue";
 import Intro from "./Hero.vue";
 import GameImage from "./GameImage.vue";
-import { ArrowRight } from 'lucide-vue-next'
+import { ArrowRight } from "lucide-vue-next";
 
 export default defineComponent({
   name: "About",

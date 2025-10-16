@@ -1,7 +1,9 @@
 <script lang="ts" setup>
-import Footer from '~/components/Footer.vue'
+import { definePerson, useSchemaOrg } from 'nuxt-schema-org/schema';
+import { useSeoMeta } from 'nuxt/app';
 
-useSchemaOrg([
+
+/* useSchemaOrg([
   definePerson({
     name: 'Daniel Hiebeler',
     alternateName: 'daniebeler',
@@ -23,7 +25,7 @@ useSchemaOrg([
       'https://buymeacoffee.com/daniebeler'
     ]
   }),
-]);
+]); */
 
 useSeoMeta({
   charset: 'utf-8',
