@@ -5,26 +5,7 @@
           Hi, I'm <span class="text-yellow-500">Daniel Hiebeler</span>
         </h1>
         <h2 class="text-2xl md:text-3xl text-zinc-400">Software Developer & Designer</h2>
-        <!-- <p class="text-2xl md:text-3xl h-10 text-zinc-400">
-          <v-typical :steps="[
-            'Sailor⛵',
-            1500,
-            'Programmer💻',
-            1500,
-            'Metalhead🤘',
-            1500,
-            'Austrian🇦🇹',
-            1500,
-            'Student at TU Wien',
-            1500,
-            'Web Developer',
-            1500,
-            'Adventurer🏞️',
-            1500,
-            'Game Dev🎮',
-            1500,
-          ]" :loop="Infinity" :wrapper="'strong'"></v-typical>
-        </p> -->
+        
         <p class="text-lg text-zinc-300 max-w-xl mt-4">
           I'm passionate about creating meaningful digital experiences and blending clean design with functionality.
           Currently, I'm studying Informatics at TU Wien to further refine my skills.</p>
@@ -42,12 +23,11 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import VTypical from "vue-typical";
 import { ArrowRight } from 'lucide-vue-next'
 
 export default defineComponent({
   name: "Hero",
-  components: { VTypical, ArrowRight }
+  components: { ArrowRight }
 },
 )
 </script>
