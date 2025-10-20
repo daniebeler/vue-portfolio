@@ -1,7 +1,7 @@
 <template>
   <section class="container mx-auto py-20 md:py-32 p-5">
       <div class="space-y-6">
-        <h1 class="text-4xl md:text-6xl font-bold tracking-tight">
+        <h1 class="text-4xl md:text-6xl tracking-tight uppercase font-semibold">
           Hi, I'm <span class="text-yellow-500">Daniel Hiebeler</span>
         </h1>
         <h2 class="text-2xl md:text-3xl text-zinc-400">Software Developer & Designer</h2>

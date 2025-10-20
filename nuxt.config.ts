@@ -7,7 +7,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   vite: { plugins: [tailwindcss()] },
-  modules: ["@nuxt/fonts", "nuxt-schema-org", "@nuxtjs/plausible"],
+  modules: [['@nuxtjs/google-fonts', {
+    families: {
+      Poppins: [400, 600, 700],
+      Inter: [400, 600]
+    }
+  }], "nuxt-schema-org", "@nuxtjs/plausible"],
   site: {
     host: "https://daniebeler.com",
   },
@@ -43,15 +48,6 @@ export default defineNuxtConfig({
   },
   schemaOrg: {
     defaults: false,
-  },
-  fonts: {
-    experimental: {
-      processCSSVariables: true,
-    },
-    families: [
-      { name: "Poppins", provider: "google", weight: 400 },
-      { name: "Poppins", provider: "google", weight: 700 },
-    ],
   },
   plausible: {
     proxy: true,

@@ -2,7 +2,7 @@
 	<section id="contact" class="py-20 px-5">
 		<div class="container mx-auto max-w-3xl text-center">
 			<h2 class="text-3xl font-bold mb-6 flex items-center justify-center">
-				<span class="text-yellow-500 mr-2">03.</span> Get In Touch
+				<span class="text-yellow-500 mr-2">03.</span> GET IN TOUCH
 			</h2>
 			<p class="text-zinc-300 mb-8 max-w-xl mx-auto">
 				I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say

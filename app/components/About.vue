@@ -3,7 +3,7 @@
     <div class="container">
 
       <h2 class="text-3xl font-bold pb-12 flex items-center">
-        <span class="text-yellow-500 mr-2">01.</span>About Me
+        <span class="text-yellow-500 mr-2">01.</span>ABOUT ME
         <div class="h-px bg-zinc-600 flex-grow ml-4"></div>
       </h2>
 
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="relative overflow-hidden rounded-xl border border-[#2a2a4a]">
+        <div class="relative overflow-hidden rounded-xl border border-[#2a2a4a] font-ghostbyte">
           <div class="absolute inset-0 bg-gradient-to-br from-[#0f0921] to-[#0a192f] z-0"></div>
 
           <div class="absolute -bottom-20 -right-20 h-40 w-40 rounded-full bg-[#4d5bce]/20 blur-3xl z-0"></div>
@@ -52,10 +52,10 @@
             <div class="flex flex-col justify-center flex-grow">
               <p class="font-bold tracking-tighter text-3xl lg:text-2xl xl:text-4xl mb-3">
                 <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-white to-cyan-300">
-                  Turning Ideas Into <span class="hidden lg:inline-block xl:hidden">Digital Reality</span>
+                  Turning Ideas Into <span class="hidden lg:inline-block xl:hidden font-semibold">Digital Reality</span>
                 </span>
                 <br />
-                <span class="bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-cyan-400 lg:hidden xl:inline-block">
+                <span class="bg-clip-text font-semibold text-transparent bg-gradient-to-br from-purple-500 to-cyan-400 lg:hidden xl:inline-block">
                   Digital Reality
                 </span>
               </p>
