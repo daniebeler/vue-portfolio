@@ -55,7 +55,8 @@
                   Turning Ideas Into <span class="hidden lg:inline-block xl:hidden font-semibold">Digital Reality</span>
                 </span>
                 <br />
-                <span class="bg-clip-text font-semibold text-transparent bg-gradient-to-br from-purple-500 to-cyan-400 lg:hidden xl:inline-block">
+                <span
+                  class="bg-clip-text font-semibold text-transparent bg-gradient-to-br from-purple-500 to-cyan-400 lg:hidden xl:inline-block">
                   Digital Reality
                 </span>
               </p>
@@ -79,14 +80,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import Intro from "./Hero.vue";
-import GameImage from "./GameImage.vue";
 import { ArrowRight } from "lucide-vue-next";
+import { defineComponent } from "vue";
+import GameImage from "./GameImage.vue";
+import Intro from "./Hero.vue";
 
 export default defineComponent({
   name: "About",
-  components: { Intro, GameImage, ArrowRight }
-},
-)
+  components: { Intro, GameImage, ArrowRight },
+});
 </script>

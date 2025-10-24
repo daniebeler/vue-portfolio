@@ -99,7 +99,6 @@ export default defineComponent({
     openUrl(url: string) {
       window.open(url, "_blank");
     },
-  }
-},
-)
+  },
+});
 </script>

@@ -5,5 +5,5 @@
   </template>
   
   <script setup>
-  // No script logic needed
-  </script>
+// No script logic needed
+</script>

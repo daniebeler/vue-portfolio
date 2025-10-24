@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-default: 'Poppins', sans-serif;
-  --font-ghostbyte: 'Inter', sans-serif;
+  --font-default: "Poppins", sans-serif;
+  --font-ghostbyte: "Inter", sans-serif;
 }
 
 html,
