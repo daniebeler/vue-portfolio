@@ -37,40 +37,26 @@
           </div>
         </div>
 
-        <div class="relative overflow-hidden rounded-xl border border-[#2a2a4a] font-ghostbyte">
-          <div class="absolute inset-0 bg-gradient-to-br from-[#0f0921] to-[#0a192f] z-0"></div>
+        <div class="relative overflow-hidden rounded-2xl lg:rounded-3xl font-ghostbyte bg-[#f2ede4] text-[#262626]">
 
-          <div class="absolute -bottom-20 -right-20 h-40 w-40 rounded-full bg-[#4d5bce]/20 blur-3xl z-0"></div>
-          <div class="absolute -top-20 -left-20 h-40 w-40 rounded-full bg-[#9d4edd]/10 blur-3xl z-0"></div>
-
-          <div class="relative z-10 h-full flex flex-col p-6">
+          <div class="relative z-10 h-full flex flex-col justify-between p-6">
             <div class="flex items-center gap-3 mb-4">
-              <img src="/img/ghostbyte_logo_white.svg" height="42px" width="42px">
-              <h3 class="text-xl font-bold tracking-tight text-white">Ghostbyte</h3>
+              <img src="/img/ghostbyte_logo_white.svg" alt="Ghostbyte logo" height="42px" width="42px">
+              <h3 class="text-xl font-bold tracking-tight">Ghostbyte</h3>
             </div>
 
-            <div class="flex flex-col justify-center flex-grow">
-              <p class="font-bold tracking-tighter text-3xl lg:text-2xl xl:text-4xl mb-3">
-                <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-white to-cyan-300">
-                  Turning Ideas Into <span class="hidden lg:inline-block xl:hidden font-semibold">Digital Reality</span>
-                </span>
-                <br />
-                <span
-                  class="bg-clip-text font-semibold text-transparent bg-gradient-to-br from-purple-500 to-cyan-400 lg:hidden xl:inline-block">
-                  Digital Reality
-                </span>
-              </p>
-              <p class="text-gray-300 mb-4 max-w-lg lg:text-sm xl:text-md">
-                I'm the co-founder of Ghostbyte, a software development studio I started with my brother to bring ideas
-                to life through custom software and exceptional digital experiences.
-              </p>
-              <div class="flex">
-                <a href="https://ghostbyte.dev" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#9d4edd] to-[#4cc9f0] rounded-md text-white hover:opacity-90 transition-opacity text-sm">
-                  <span>View our Work</span>
-                  <ArrowRight class="h-4 w-4" />
-                </a>
-              </div>
+
+            <p class="text-[#525252] mb-4 max-w-lg lg:text-sm xl:text-lg">
+              I started Ghostbyte with my brother because we both love the challenge of building things from scratch.
+              We’re a small software studio focused on taking good ideas and turning them into digital products that
+              actually work for people.
+            </p>
+            <div class="flex">
+              <a href="https://ghostbyte.dev" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-4 py-2 bg-[#262626] rounded-full text-white hover:opacity-90 transition-opacity text-sm">
+                <span>View our Work</span>
+                <ArrowRight class="h-4 w-4" />
+              </a>
             </div>
           </div>
         </div>

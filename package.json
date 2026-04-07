@@ -11,16 +11,16 @@
 	},
 	"dependencies": {
 		"@nuxtjs/google-fonts": "^3.2.0",
-		"@nuxtjs/plausible": "^2.0.1",
-		"@tailwindcss/vite": "^4.1.17",
-		"lucide-vue-next": "^0.559.0",
-		"nuxt": "^4.2.2",
-		"nuxt-schema-org": "^5.0.9",
-		"tailwindcss": "^4.1.17",
+		"@nuxtjs/plausible": "^3.0.2",
+		"@tailwindcss/vite": "^4.2.2",
+		"lucide-vue-next": "^1.0.0",
+		"nuxt": "^4.4.2",
+		"nuxt-schema-org": "^6.0.4",
+		"tailwindcss": "^4.2.2",
 		"vue": "latest",
 		"vue-router": "latest"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.3.8"
+		"@biomejs/biome": "2.4.10"
 	}
 }
