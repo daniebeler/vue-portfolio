@@ -47,41 +47,32 @@
         <GameImage image="idea-overflow.svg" name="Idea Overflow" color="#0cc87e" date="2022"
           url="https://ideaoverflow.xyz" />
 
-        <GameImage image="rocket.webp" name="Risky Rocket" color="#31c381" date="2021"
-          url="https://daniebeler.itch.io/risky-rocket" />
+        <GameImage image="rocket.webp" name="Risky Rocket" color="#31c381" date="2021" url="/games/risky-rocket" />
 
-        <GameImage image="pong.webp" name="1D Pong" color="#ef6060" date="2021"
-          url="https://play.google.com/store/apps/details?id=com.daniebeler.onedpong" />
+        <GameImage image="pong.webp" name="1D Pong" color="#ef6060" date="2021" url="/games/1d-pong" />
 
         <GameImage image="dailytasks.webp" name="Daily Tasks" color="#212121" date="2020"
           url="https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks" />
 
-        <GameImage image="balance.webp" name="Balance - The Game" color="#ffc656" date="2020"
-          url="https://daniebeler.itch.io/balance" />
+        <GameImage image="balance.webp" name="Balance - The Game" color="#ffc656" date="2020" url="/games/balance" />
 
-        <GameImage image="wrongway.webp" name="Wrong Way" color="#32aa50" date="2020"
-          url="https://play.google.com/store/apps/details?id=com.daniebeler.wrongway" />
+        <GameImage image="wrongway.webp" name="Wrong Way" color="#32aa50" date="2020" url="/games/wrong-way" />
 
-        <GameImage image="parkingjam.webp" name="Parking Jam" color="#ed8923" date="2020"
-          url="https://daniebeler.itch.io/parking-jam" />
+        <GameImage image="parkingjam.webp" name="Parking Jam" color="#ed8923" date="2020" url="/games/parking-jam" />
 
-        <GameImage image="justwatchad.webp" name="Just Watch Ad" color="#ffb602" date="2020"
-          url="https://play.google.com/store/apps/details?id=com.daniebeler.justwatchad" />
+        <GameImage image="justwatchad.webp" name="Just Watch Ad" color="#ffb602" date="2020" url="/games/justwatchad" />
 
         <GameImage image="toggle-together.webp" name="Toggle Together" color="#2279ff" date="2019"
-          url="https://play.google.com/store/apps/details?id=com.daniebeler.toggletogether" />
+          url="/games/toggle-together" />
 
-        <GameImage image="mine-boy.webp" name="MineBoy" color="#653814" date="2019"
-          url="https://daniebeler.itch.io/mineboy" />
+        <GameImage image="mine-boy.webp" name="MineBoy" color="#653814" date="2019" url="/games/mineboy" />
 
-        <GameImage image="21.webp" name="Twentyone" color="#5e35b1" date="2019"
-          url="https://play.google.com/store/apps/details?id=com.daniebeler.twentyone" />
+        <GameImage image="21.webp" name="Twentyone" color="#5e35b1" date="2019" url="/games/twentyone" />
 
         <GameImage image="speed-clicker.webp" name="Speed Clicker" color="#2ca6e9" date="2018"
-          url="https://play.google.com/store/apps/details?id=com.daniebeler.speed_clicker" />
+          url="/games/speed-clicker" />
 
-        <GameImage image="reflextest.webp" name="Reflextest" color="#0dbc3e" date="2018"
-          url="https://play.google.com/store/apps/details?id=com.daniebeler.reflextest" />
+        <GameImage image="reflextest.webp" name="Reflextest" color="#0dbc3e" date="2018" url="/games/reflextest" />
 
       </div>
     </div>
