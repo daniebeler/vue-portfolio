@@ -7,9 +7,11 @@
       <div class="flex space-x-5">
         <img :src="`/img/${game.logo}`" :alt="game.title" class="w-32 rounded-2xl" />
         <div>
-          <h1 class="text-3xl">{{ game.title }}</h1>
+          <h1 class="text-3xl font-semibold">{{ game.title }}</h1>
           <div class="flex space-x-3 py-2">
-            <div class="bg-primary" v-for="tech in game.tech" :key="tech">{{ tech }}</div>
+            <div class="bg-primary rounded-full text-background px-1 py-0.5 text-xs font-semibold"
+              v-for="tech in game.tech" :key="tech">{{
+                tech }}</div>
           </div>
           <p>{{ game.releaseYear }}</p>
         </div>
