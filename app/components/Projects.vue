@@ -40,7 +40,7 @@
           url="https://buckets-of-bookmarks.daniebeler.com" />
 
         <GameImage image="day-in-percent.webp" name="Day in Percent" color="#212121" date="2022"
-          url="https://day-in-percent.daniebeler.com/" />
+          url="https://day-in-percent.netlify.app/" />
 
         <GameImage image="dine.webp" name="dine." color="#3e3d44" date="2020 - 2022" url="https://dine-app.at" />
 
