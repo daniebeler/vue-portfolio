@@ -28,6 +28,11 @@
             src="/img/badges/playstore.png" alt="" class="h-14"></a>
       </div>
 
+      <div v-if="screenshots.length" class="mt-10 flex w-full gap-4 overflow-x-auto pb-4 snap-x snap-mandatory">
+        <img v-for="shot in screenshots" :key="shot" :src="shot" :alt="`${game?.title} screenshot`"
+          class="h-96 w-auto shrink-0 snap-start rounded-xl" loading="lazy" />
+      </div>
+
       <a v-if="game.sourceUrl" :href="game.sourceUrl" target="blank" rel="noopener noreferrer"
         class="border border-gray-300 rounded-xl px-5 py-3 block w-fit mt-10">View on GitHub</a>
 
@@ -47,6 +52,17 @@ import { type Game, gamesData } from '~/assets/data/games';
 const route = useRoute()
 
 const game = gamesData.find((g: Game) => g.slug === route.params.slug)
+
+const allShots = import.meta.glob('~/assets/img/*/screenshot/*.{png,jpg,jpeg,webp}', {
+  eager: true,
+  query: '?url',
+  import: 'default',
+}) as Record<string, string>
+
+const screenshots = Object.entries(allShots)
+  .filter(([path]) => path.includes(`/${route.params.slug}/screenshot/`))
+  .sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true }))
+  .map(([, url]) => url)
 
 if (game) {
   useSeoMeta({
